@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>ID</th>
       <th>Name</th>
       <th>Cost</th>
       <th>Duration</th>
@@ -15,8 +16,9 @@
   <tbody>
     <% @activities.each do |activity| %>
       <tr>
+        <td><%= activity.id %></td>
         <td><%= activity.name %></td>
-        <td><%= activity.cost %></td>
+        <td><%= "$#{activity.cost}" %></td>
         <td><%= activity.duration %></td>
         <td><%= link_to 'Show', activity %></td>
         <td><%= link_to 'Edit', edit_activity_path(activity) %></td>
