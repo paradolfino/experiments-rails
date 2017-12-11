@@ -18,7 +18,7 @@
       <tr>
         <td><%= activity.id %></td>
         <td><%= activity.name %></td>
-        <td><%= activity.cost %></td>
+        <td><%= "$#{activity.cost}" %></td>
         <td><%= activity.duration %></td>
         <td><%= link_to 'Show', activity %></td>
         <td><%= link_to 'Edit', edit_activity_path(activity) %></td>
