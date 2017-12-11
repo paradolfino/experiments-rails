@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'main#index'
 
-  get 'main/about'
+  get 'about' => 'main#about'
 
   get 'ilovetocode' => 'main#index'
 
