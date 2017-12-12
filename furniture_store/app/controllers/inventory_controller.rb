@@ -8,6 +8,7 @@ class InventoryController < ApplicationController
   end
 
   def by_category
-    @products = Product.where(category: "Alpha")
+    @products = Product.order(:category)
+    
   end
 end
