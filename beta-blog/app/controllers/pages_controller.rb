@@ -1,4 +1,7 @@
-class PagesController < ActionController::Base
-    
+class PagesController < ActionController
+    def home
+    end
+    def about
+    end
 end
   
