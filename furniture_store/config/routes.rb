@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'home#index'
 
+  get 'welcome/home', to: 'welcome#home'
+
   get 'inventory/all_products'
 
   get 'inventory/one_product'
