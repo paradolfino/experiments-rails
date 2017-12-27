@@ -1,2 +1,3 @@
 class ArticlesControllerController < ApplicationController
+  
 end
