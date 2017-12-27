@@ -3,3 +3,4 @@
 25/12/2017 19:43:pool[x6gbe6]: practice with creating manual migrations and models
 25/12/2017 19:59:pool[51421m]: normangiantribe: first commit
 26/12/2017 19:45:pool[brilliant-shining-rabbit-k1870z]: work on model:Article validations for title and desc
+26/12/2017 19:58:pool[pretty-shining-rabbit-lmvcqo]: rails g controller articles
