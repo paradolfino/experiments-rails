@@ -5,3 +5,4 @@
 26/12/2017 19:45:pool[brilliant-shining-rabbit-k1870z]: work on model:Article validations for title and desc
 26/12/2017 19:58:pool[pretty-shining-rabbit-lmvcqo]: rails g controller articles
 27/12/2017 19:44:pool[rapid-living-river-cny7h8]: create new template action and route
+29/12/2017 18:49:pool[brilliant-steaming-rabbit-i75qb1]: fix create, add flash and error messages, create show
