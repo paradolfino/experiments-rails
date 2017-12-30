@@ -1,5 +1,9 @@
 <h1>Create an Article</h1>
 
+<% if @article.errors.any? %>
+  
+<% end %>
+
 <%= form_for @article do |f| %>
 
   <p>
