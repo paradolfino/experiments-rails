@@ -1,5 +1,4 @@
-## Overtime App
-
+# Overtime App
 
 ## Models
 - Post => date:date rationale:text
