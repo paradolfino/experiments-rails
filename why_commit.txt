@@ -7,3 +7,4 @@
 27/12/2017 19:44:pool[rapid-living-river-cny7h8]: create new template action and route
 29/12/2017 18:49:pool[brilliant-steaming-rabbit-i75qb1]: fix create, add flash and error messages, create show
 29/12/2017 18:59:pool[serene-steaming-mountain-13tz2a]: add edit method, update action, edit view
+30/12/2017 18:15:pool[serene-shining-rabbit-0xeo46]: add edit, update, show and index listing
