@@ -9,3 +9,4 @@
 29/12/2017 18:59:pool[serene-steaming-mountain-13tz2a]: add edit method, update action, edit view
 30/12/2017 18:15:pool[serene-shining-rabbit-0xeo46]: add edit, update, show and index listing
 30/12/2017 18:29:pool[serene-rolling-river-1cpjyz]: add partials and destroy action
+30/12/2017 19:59:pool[brilliant-shining-cow-33g044]: overtime:fc and change readme
