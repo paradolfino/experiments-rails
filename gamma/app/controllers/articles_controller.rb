@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
     def create
-        @article = Article.new
+        @article = Article.new(params[:article])
     end
 
 end
