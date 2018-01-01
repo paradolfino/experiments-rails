@@ -13,3 +13,4 @@
 31/12/2017 17:09:pool[pretty-shining-river-h33t51]: code cleanup in articles_controller: before action
 31/12/2017 23:32:pool[serene-living-river-dt7736]: gamma:fc and create pages controller, article model
 31/12/2017 23:54:pool[serene-rolling-rabbit-61177l]: add articlescontroller, add new/create actions
+01/01/2018 00:17:pool[pretty-living-rabbit-mihu7l]: add show action, index and create views
