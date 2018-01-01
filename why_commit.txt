@@ -12,3 +12,4 @@
 30/12/2017 19:59:pool[brilliant-shining-cow-33g044]: overtime:fc and change readme
 31/12/2017 17:09:pool[pretty-shining-river-h33t51]: code cleanup in articles_controller: before action
 31/12/2017 23:32:pool[serene-living-river-dt7736]: gamma:fc and create pages controller, article model
+31/12/2017 23:54:pool[serene-rolling-rabbit-61177l]: add articlescontroller, add new/create actions
