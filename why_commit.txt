@@ -16,3 +16,4 @@
 01/01/2018 00:17:pool[pretty-living-rabbit-mihu7l]: add show action, index and create views
 01/01/2018 20:17:pool[serene-living-mountain-241jx2]: add bootstrap, jquery, add custom.css
 01/01/2018 20:29:pool[pretty-shining-cow-btc6oc]: add basic styling - work with bootstrap
+01/01/2018 21:27:pool[serene-shining-cow-72h741]: test scaffolding
