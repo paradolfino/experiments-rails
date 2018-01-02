@@ -1,4 +1,8 @@
 $navbar-default-bg: darkred;
 
+li {
+    color: white;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
