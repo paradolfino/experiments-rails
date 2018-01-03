@@ -1,8 +1,18 @@
 $navbar-default-bg: darkred;
 
-li a {
-    color: white !important;
-}
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+li a {
+    color: white;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
