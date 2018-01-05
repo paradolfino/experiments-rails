@@ -20,3 +20,4 @@
 01/01/2018 21:35:pool[serene-rolling-mountain-z86i7d]: generate blank Dictionary model and add specs to migration
 02/01/2018 19:20:pool[brilliant-living-mountain-rpxa8i]: practice modify navigation with embedded ruby, practice add jumbotron, encase yield in container
 03/01/2018 19:29:pool[rapid-living-mountain-31h66f]: add more styling to jumbo, add footer
+04/01/2018 19:28:pool[serene-living-cow-r5z16f]: create homepage and add links and more styling
