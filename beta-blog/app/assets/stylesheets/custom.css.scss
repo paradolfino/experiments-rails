@@ -39,6 +39,28 @@ li a {
 }
 
 .footer {
-    height: 50px;
-    background-color: darkred;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+
+    a {
+        &:hover {
+            color: #222;
+        }
+    }
+
+    small {
+        float: left;
+    }
+
+    ul {
+        float: right;
+        list-style: none;
+
+        li {
+            float: left;
+            margin-left: 15px;
+        }
+    }
 }
