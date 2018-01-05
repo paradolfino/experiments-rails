@@ -22,3 +22,4 @@
 03/01/2018 19:29:pool[rapid-living-mountain-31h66f]: add more styling to jumbo, add footer
 04/01/2018 19:28:pool[serene-living-cow-r5z16f]: create homepage and add links and more styling
 04/01/2018 19:45:pool[serene-living-mountain-5u3dct]: begin add styling to form partial
+04/01/2018 20:30:pool[serene-steaming-river-58784l]: normangiantribe: begin add styling to application.html.erb and _header partial
