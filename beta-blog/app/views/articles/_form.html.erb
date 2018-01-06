@@ -1,6 +1,9 @@
 <% if @article.errors.any? %>
   <div class="row">
-    <div class="error">
+    <div class="panel panel-danger error">
+      <div class="panel-heading">
+        
+      </div>
       <h2>The following errors prevented the following Article from being created.</h2>
       <ul>
         <% @article.errors.full_messages.each do |msg| %>
