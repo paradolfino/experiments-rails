@@ -1,17 +1,19 @@
 <% if @article.errors.any? %>
   <div class="row">
-    <div class="panel panel-danger error">
-      <div class="panel-heading">
-        <h2 class="panel-title">
-          <%= pluralize(@article.errors.count, "error") %>
-        </h2>
+    <div class="col-xs-8 col-offset-2">
+      <div class="panel panel-danger error">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <%= pluralize(@article.errors.count, "error") %>
+          </h2>
+        </div>
+        <h2>The following errors prevented the following Article from being created.</h2>
+        <ul>
+          <% @article.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
       </div>
-      <h2>The following errors prevented the following Article from being created.</h2>
-      <ul>
-        <% @article.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
     </div>
   </div>
 <% end %>
