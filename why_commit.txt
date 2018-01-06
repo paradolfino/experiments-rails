@@ -26,3 +26,4 @@
 05/01/2018 19:55:pool[rapid-living-mountain-17vt20]: style form partial
 05/01/2018 19:59:pool[pretty-rolling-mountain-56p6jj]: begin styling of error messages/notifications
 05/01/2018 21:26:pool[pretty-living-cow-v70c55]: continue add styling to header partial and some placeholder text to home page
+06/01/2018 14:29:pool[pretty-living-cow-74155j]: style errors and messages partials
