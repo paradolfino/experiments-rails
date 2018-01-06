@@ -1,16 +1,42 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 header {
+    width: 100%;
     text-align: center;
 
     h1 {
         color: rgb(163, 30, 30);
         text-transform: uppercase;
     }
+
+    nav {
+        margin-bottom: 50px;
+        h4 {
+            display: inline-block;
+            margin: 0 10px 0 10px;
+            padding: 10px;
+            width: 200px;
+            background: rgb(54, 11, 11);
+            text-transform: uppercase;
+            a {
+                color: #fff;
+                &:hover {
+                    color: red;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 .page {
     display: flex;
     justify-content: center;
+    width: 75%;
 }
