@@ -1,6 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     width: 100%;
     text-align: center;
@@ -21,5 +26,5 @@ header {
 .page {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 75%;
 }
