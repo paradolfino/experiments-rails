@@ -5,14 +5,16 @@
         <div class="panel-heading">
           <h2 class="panel-title">
             <%= pluralize(@article.errors.count, "error") %>
+            prevented the following Article from being created.
           </h2>
         </div>
-        <h2>The following errors prevented the following Article from being created.</h2>
+        <div class="panel-body">
         <ul>
           <% @article.errors.full_messages.each do |msg| %>
             <li><%= msg %></li>
           <% end %>
         </ul>
+        </div>
       </div>
     </div>
   </div>
