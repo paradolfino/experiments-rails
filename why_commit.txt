@@ -25,3 +25,4 @@
 04/01/2018 20:30:pool[serene-steaming-river-58784l]: normangiantribe: begin add styling to application.html.erb and _header partial
 05/01/2018 19:55:pool[rapid-living-mountain-17vt20]: style form partial
 05/01/2018 19:59:pool[pretty-rolling-mountain-56p6jj]: begin styling of error messages/notifications
+05/01/2018 21:26:pool[pretty-living-cow-v70c55]: continue add styling to header partial and some placeholder text to home page
