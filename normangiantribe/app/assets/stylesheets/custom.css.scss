@@ -8,6 +8,12 @@ header {
         color: rgb(163, 30, 30);
         text-transform: uppercase;
     }
+
+    nav {
+        ul {
+            display: inline-block;
+        }
+    }
 }
 
 .page {
