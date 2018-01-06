@@ -1,11 +1,13 @@
 <% if @article.errors.any? %>
   <div class="row">
-  <h2 class="error">The following errors prevented the following Article from being created.</h2>
-  <ul>
-    <% @article.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
-    <% end %>
-  </ul>
+    <div class="error">
+      <h2 class="error">The following errors prevented the following Article from being created.</h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
   </div>
 <% end %>
 <div class="row">
