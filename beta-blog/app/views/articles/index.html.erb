@@ -7,7 +7,9 @@
                 <div class="article-title">
                     <%= link_to article.title, article_path(article) %>
                 </div>
-                <%= article.description %>
+                <div class="article-desc">
+                    <%= article.description %>
+                </div>
                 <%= link_to "Edit", edit_article_path(article) %>
                 
                 <%= link_to "Delete", article_path(article), method: :delete, data: {confirm: "Are you sure!?"} %>
