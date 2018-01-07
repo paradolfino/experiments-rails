@@ -30,3 +30,4 @@
 06/01/2018 19:18:pool[pretty-rolling-mountain-wscb2q]: add styling to show template
 06/01/2018 19:28:pool[brilliant-shining-cow-a6c763]: add styling to index.html.erb template
 07/01/2018 13:12:pool[pretty-living-mountain-mx6t75]: style articles listing page: "index.html.erb"
+07/01/2018 13:51:pool[brilliant-steaming-cow-3s7jt3]: practice manual creation of controllers, models, migrations, and add basic view with some test data
