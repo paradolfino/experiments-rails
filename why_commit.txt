@@ -29,3 +29,4 @@
 06/01/2018 14:29:pool[pretty-living-cow-74155j]: style errors and messages partials
 06/01/2018 19:18:pool[pretty-rolling-mountain-wscb2q]: add styling to show template
 06/01/2018 19:28:pool[brilliant-shining-cow-a6c763]: add styling to index.html.erb template
+07/01/2018 13:12:pool[pretty-living-mountain-mx6t75]: style articles listing page: "index.html.erb"

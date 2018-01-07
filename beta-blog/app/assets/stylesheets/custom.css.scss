@@ -21,6 +21,12 @@ li a {
     }
 }
 
+.dropdown-item {
+    a {
+        color: darkred !important;
+    }
+}
+
 .center {
     text-align: center;
 }
@@ -44,6 +50,17 @@ li a {
 
 .description {
     margin-top: -10px;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-desc {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .article-actions {
