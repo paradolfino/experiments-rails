@@ -21,8 +21,10 @@ li a {
     }
 }
 
-.nav .dropdown li {
-    color: darkred;
+.dropdown-item {
+    a {
+        color: darkred;
+    }
 }
 
 .center {
