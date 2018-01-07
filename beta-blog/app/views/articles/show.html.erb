@@ -1,7 +1,10 @@
 
 <h2 align="center"><%= @article.title %></h2>
 <div class="well col-xs-8 col-xs-offset-2">
-<p>Description: <%= @article.description %></p>
+    <div class="center">
+    <p>Description: <%= @article.description %></p>
+    </div>
+</div>
 
 <%= link_to "Edit", edit_article_path(@article) %>
 <%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Are you sure!?"} %>
