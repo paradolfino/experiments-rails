@@ -1,10 +1,11 @@
 
 <h2 align="center"><%= @article.title %></h2>
+<hr>
 <div class="well col-xs-8 col-xs-offset-2">
     <div class="center description">
         <%= simple_format(@article.description) %>
     </div>
-    <hr>
+    
     <div class="article-actions">
         <%= link_to "Edit", edit_article_path(@article), class: "btn btn-xs btn-primary" %>
         <%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Are you sure!?"}, class: "btn btn-xs btn-danger" %>
