@@ -31,3 +31,4 @@
 06/01/2018 19:28:pool[brilliant-shining-cow-a6c763]: add styling to index.html.erb template
 07/01/2018 13:12:pool[pretty-living-mountain-mx6t75]: style articles listing page: "index.html.erb"
 07/01/2018 13:51:pool[brilliant-steaming-cow-3s7jt3]: practice manual creation of controllers, models, migrations, and add basic view with some test data
+08/01/2018 14:43:pool[pretty-rolling-mountain-l618vi]: practice table association - one_to_many
