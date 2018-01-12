@@ -10,6 +10,7 @@
                 <div class="article-desc">
                     <%= truncate(article.description, length: 50) %>
                     <small>Created by <%= article.user.username %></small>
+                    <%= article.created_at %>
                 </div>
 
                 <div class="article-actions">
