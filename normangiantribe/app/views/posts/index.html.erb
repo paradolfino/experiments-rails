@@ -1,12 +1,12 @@
-<h1>All News Sorted by Date</h1>
+<h4>All News Sorted by Date</h4>
 <hr>
 <%= @posts.each do |post| %>
     <div class="post">
         <div class="post-title">
-            <h3><%= post.title %></h3>
+            <h5><%= truncate(post.title, 15) %></h5>
         </div>
         <div class="post-body">
-            <p><%= post.body %></p>
+            <p><%= truncate(post.body, 100) %></p>
         </div>
     </div>
 <% end %>
