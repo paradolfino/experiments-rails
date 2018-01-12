@@ -33,3 +33,4 @@
 07/01/2018 13:51:pool[brilliant-steaming-cow-3s7jt3]: practice manual creation of controllers, models, migrations, and add basic view with some test data
 08/01/2018 14:43:pool[pretty-rolling-mountain-l618vi]: practice table association - one_to_many
 08/01/2018 14:51:pool[brilliant-living-mountain-3pb0nj]: create migration create_user, create model user.rb, test connection to User table
+11/01/2018 19:46:pool[rapid-rolling-cow-7oe645]: add user validations for username and email
