@@ -35,3 +35,4 @@
 08/01/2018 14:51:pool[brilliant-living-mountain-3pb0nj]: create migration create_user, create model user.rb, test connection to User table
 11/01/2018 19:46:pool[rapid-rolling-cow-7oe645]: add user validations for username and email
 11/01/2018 20:10:pool[pretty-living-cow-1h147a]: add association between user and articles
+11/01/2018 20:28:pool[rapid-shining-river-d6pel1]: add user data to articles and add basic styling
