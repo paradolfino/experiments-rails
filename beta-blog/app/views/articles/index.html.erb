@@ -10,7 +10,8 @@
                 <div class="article-desc">
                     <%= truncate(article.description, length: 50) %>
                     <small>Created by <%= article.user.username %></small>
-                    <%= time_ago_in_words(article.created_at) ago %>
+                    <%= time_ago_in_words(article.created_at) %> ago,
+                    last updated: <%= time_ago_in_words(article.updated_at) %> agp
                 </div>
 
                 <div class="article-actions">
