@@ -9,9 +9,11 @@
                 </div>
                 <div class="article-desc">
                     <%= truncate(article.description, length: 50) %>
-                    <small>Created by <%= article.user.username if article.user %></small>
-                    <%= time_ago_in_words(article.created_at) %> ago,
-                    last updated: <%= time_ago_in_words(article.updated_at) %> ago
+                    <div class="article-meta">
+                        <small>Created by <%= article.user.username if article.user %></small>
+                        <%= time_ago_in_words(article.created_at) %> ago,
+                        last updated: <%= time_ago_in_words(article.updated_at) %> ago
+                    </div>
                 </div>
 
                 <div class="article-actions">
