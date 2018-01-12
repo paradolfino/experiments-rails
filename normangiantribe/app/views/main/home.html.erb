@@ -1,4 +1,4 @@
 <div class="page-home">
-  <h2>Velkommen</h2>
-  <p>Det vebbsët ar under konstrøktjer. Men, snart att vël vår mer att såger om det. Tak får visëtter.</p>
+  <h2><%= @post.title if @post %></h2>
+  <p><%= @post.body if @post %></p>
 </div>
