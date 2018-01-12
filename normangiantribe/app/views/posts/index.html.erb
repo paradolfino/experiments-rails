@@ -1,6 +1,6 @@
 <h4>All News Sorted by Date</h4>
 <hr>
-<%= @posts.each do |post| %>
+<% @posts.each do |post| %>
     <div class="post">
         <div class="post-title">
             <h5><%= truncate(post.title, 15) %></h5>
