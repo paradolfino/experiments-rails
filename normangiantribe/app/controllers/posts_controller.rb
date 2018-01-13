@@ -23,4 +23,12 @@ class PostsController < ApplicationController
             render 'new'
         end
     end
+
+    private
+        def post_params
+            params.require(:post).permit(:title, :body)
+        end
+        def set_article
+            @post = Post.find(params[:id])
+        end
 end
