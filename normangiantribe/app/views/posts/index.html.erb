@@ -9,7 +9,7 @@
             <p><%= truncate(post.body, length: 100) %></p>
         </div>
         <div class="post-meta">
-            <small>Created <strong><%= time_ago_in_words(post.created_at) %></strong> ago.</small>
+            <small><em>Created <strong><%= time_ago_in_words(post.created_at) %></strong> ago.</em></small>
         </div>
     </div>
 <% end %>
