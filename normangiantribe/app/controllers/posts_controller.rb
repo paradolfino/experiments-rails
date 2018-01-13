@@ -18,7 +18,7 @@ class PostsController < ApplicationController
         #@post.user = User.first -- after add User and associate to Post
         if @article.save
             flash[:success] = "Post was successfully created"
-            redirect_to article_path(@article)
+            redirect_to post_path(@post)
         else
             render 'new'
         end
