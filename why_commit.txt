@@ -37,3 +37,4 @@
 11/01/2018 20:10:pool[pretty-living-cow-1h147a]: add association between user and articles
 11/01/2018 20:28:pool[rapid-shining-river-d6pel1]: add user data to articles and add basic styling
 11/01/2018 20:58:pool[rapid-living-mountain-p45555]: add posts controller, add create_posts migration, add post model with validations, add post index view, add post.last to home, and list all posts on index view
+12/01/2018 21:08:pool[brilliant-shining-rabbit-0ci651]: add edit and create methods to posts_controller, add private methods post_params and set_post to posts_controller, create 'new' view, create form partial, create messages partial, create errors partial
