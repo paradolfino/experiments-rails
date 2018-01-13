@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     end
 
     def create
-        #render plain: params[:article].inspect
+        #render plain: params[:post].inspect
         @post = Post.new
         #@post.user = User.first -- after add User and associate to Post
         if @post.save
