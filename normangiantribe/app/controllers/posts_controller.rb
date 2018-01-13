@@ -16,7 +16,7 @@ class PostsController < ApplicationController
         #render plain: params[:article].inspect
         @post = Post.new
         #@post.user = User.first -- after add User and associate to Post
-        if @article.save
+        if @post.save
             flash[:success] = "Post was successfully created"
             redirect_to post_path(@post)
         else
