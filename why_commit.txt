@@ -40,3 +40,4 @@
 12/01/2018 21:08:pool[brilliant-shining-rabbit-0ci651]: add edit and create methods to posts_controller, add private methods post_params and set_post to posts_controller, create 'new' view, create form partial, create messages partial, create errors partial
 13/01/2018 10:10:pool[pretty-shining-mountain-3a11w1]: add show method to posts_controller, add show view
 14/01/2018 18:33:pool[brilliant-rolling-rabbit-umo0pa]: add secure password, configure bcrypt to work correctly with system
+14/01/2018 18:52:pool[serene-steaming-mountain-4f7le7]: add signup route, add users_controller, add new user view, add new/create methods to users controller, add form html for username, email, password, test adding user
