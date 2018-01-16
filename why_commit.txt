@@ -41,3 +41,5 @@
 13/01/2018 10:10:pool[pretty-shining-mountain-3a11w1]: add show method to posts_controller, add show view
 14/01/2018 18:33:pool[brilliant-rolling-rabbit-umo0pa]: add secure password, configure bcrypt to work correctly with system
 14/01/2018 18:52:pool[serene-steaming-mountain-4f7le7]: add signup route, add users_controller, add new user view, add new/create methods to users controller, add form html for username, email, password, test adding user
+15/01/2018 19:16:pool[rapid-shining-cow-5v2f35]: add edit method to users controller, add update method to users controller, create users form partial
+15/01/2018 19:32:pool[pretty-rolling-rabbit-ayrd67]: add show method to users controller, add show view, add gravatar_for method to application helpers
