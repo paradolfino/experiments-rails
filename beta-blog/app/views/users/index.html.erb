@@ -6,8 +6,9 @@
                     <%= link_to gravatar_for(user), user_path(user) %>
                 </div>
                 <div class="article-title">
-                    <%= link_to truncate(user.title, length: 15), user_path(user) %>
+                    <%= link_to truncate(user.username, length: 15), user_path(user) %>
                 </div>
+                <small><%= pluralize(user.articles.count) %>
             </div>
         </div>
     </div>
