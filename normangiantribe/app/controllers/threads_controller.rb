@@ -1,11 +1,11 @@
 class ThreadsController < ApplicationController
     before_action :set_thread, only: [:edit,:update,:show,:destroy]
     def index
-        @threads = thread.all
+        @threads = Thread.all
     end
 
     def new
-        @thread = thread.new
+        @thread = Thread.new
     end
 
     def edit
@@ -14,7 +14,7 @@ class ThreadsController < ApplicationController
 
     def create
         #render plain: params[:thread].inspect
-        @thread = thread.new(thread_params)
+        @thread = Thread.new(thread_params)
         if @thread.save
             flash[:success] = "thread was successfully created"
             redirect_to thread_path(@thread)
@@ -24,7 +24,7 @@ class ThreadsController < ApplicationController
     end
 
     def show
-        @thread = thread.find(params[:id])
+        @thread = Thread.find(params[:id])
     end
 
     private
@@ -32,6 +32,6 @@ class ThreadsController < ApplicationController
             params.require(:thread).permit(:title, :body)
         end
         def set_thread
-            @thread = thread.find(params[:id])
+            @thread = Thread.find(params[:id])
         end
 end
