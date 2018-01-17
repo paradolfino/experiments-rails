@@ -5,7 +5,7 @@
                 <div class="user-img">
                     <%= link_to gravatar_for(user), user_path(user) %>
                 </div>
-                <div class="article-title">
+                <div class="user-title">
                     <%= link_to truncate(user.username, length: 15), user_path(user) %>
                 </div>
                 <hr>
