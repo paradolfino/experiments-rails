@@ -8,7 +8,8 @@
                 <div class="article-title">
                     <%= link_to truncate(user.username, length: 15), user_path(user) %>
                 </div>
-                <small><%= pluralize(user.articles.count, "article") if user.articles %>
+                <hr>
+                <small><%= pluralize(user.articles.count, "article") if user.articles %></small>
             </div>
         </div>
     </div>
