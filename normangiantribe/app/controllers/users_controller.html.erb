@@ -15,7 +15,7 @@ class UsersController < ApplicationController
     def create
         #render plain: params[:user].inspect
         @user = user.new(user_params)
-        #@user.user = User.first -- after add User and associate to user
+        
         if @user.save
             flash[:success] = "user was successfully created"
             redirect_to user_path(@user)
