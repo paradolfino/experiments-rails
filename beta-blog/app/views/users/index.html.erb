@@ -1,0 +1,11 @@
+<% @articles.each do |article| %>
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+            <div class="well well-lg">
+                <div class="article-title">
+                    <%= link_to truncate(article.title, length: 15), article_path(article) %>
+                </div>
+            </div>
+        </div>
+    </div>
+<% end %>
