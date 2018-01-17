@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root 'main#home'
   get 'about', to: 'main#about'
   resources :posts
+  resources :users
+  resources :threads
 end

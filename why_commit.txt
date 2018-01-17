@@ -46,3 +46,5 @@
 15/01/2018 21:04:pool[serene-steaming-river-kwm35s]: rails_portfolio: fc
 16/01/2018 19:14:pool[rapid-living-river-m7ipr7]: add @articles reference to @user.articles in users_controller show method, create article partial in shared folder, clean up navigation, render partial in users/show view to list all articles by user
 16/01/2018 19:29:pool[rapid-steaming-cow-sl1fc7]: add users index with links and counts to each user and its articles, add user info to each article
+16/01/2018 21:35:pool[rapid-living-river-5o1ln3]: add users controller, add user model, add migration for users table, add posts controller, add post model, add migration for posts table, install bcrypt, set up user validation, designate production group gems including postgresql
+16/01/2018 21:54:pool[serene-rolling-cow-k2ns6d]: add password_digest, add one to many association between users and threads, add users index, add users and threads as resources to routes
