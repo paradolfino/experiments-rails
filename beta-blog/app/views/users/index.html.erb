@@ -1,9 +1,9 @@
-<% @articles.each do |article| %>
+<% @users.each do |user| %>
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
             <div class="well well-lg">
-                <div class="article-title">
-                    <%= link_to truncate(article.title, length: 15), article_path(article) %>
+                <div class="user-title">
+                    <%= link_to truncate(user.title, length: 15), user_path(user) %>
                 </div>
             </div>
         </div>
