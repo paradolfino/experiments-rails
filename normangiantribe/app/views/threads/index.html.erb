@@ -1,11 +1,11 @@
 <div class="subheader">
-    <h4>All Users</h4>
+    <h4>All threads</h4>
 </div>
 <hr>
-<% @users.each do |user| %>
+<% @threads.each do |thread| %>
     <div class="post">
         <div class="post-title">
-            <h5>[<%= truncate(user.username, length: 15) %>]</h5>
+            <h5>[<%= truncate(thread.threadname, length: 15) %>]</h5>
         </div>
     </div>
 <% end %>
