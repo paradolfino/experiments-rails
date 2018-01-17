@@ -3,6 +3,7 @@
         <div class="col-xs-8 col-xs-offset-2">
             <div class="well well-lg">
                 <div class="user-img">
+                    <%= link_to gravatar_for(user), user_path(user) %>
                 </div>
                 <div class="user-title">
                     <%= link_to truncate(user.title, length: 15), user_path(user) %>
