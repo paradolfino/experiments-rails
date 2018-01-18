@@ -4,6 +4,10 @@ class MsgsController < ApplicationController
         @msgs = Msg.all
     end
 
+    def show
+
+    end
+
     private
         def msg_params
             params.require(:msg).permit(:title, :body)
