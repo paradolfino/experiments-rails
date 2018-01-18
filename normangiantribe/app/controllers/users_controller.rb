@@ -29,9 +29,9 @@ class UsersController < ApplicationController
         end
     
         def show
-            @msgs = Msg.all
+            
             @user = User.find(params[:id])
-            @articles = @user.articles
+            @msgs = @user.msgs
         end
     
         def index
