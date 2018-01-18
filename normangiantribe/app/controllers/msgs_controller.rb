@@ -1,14 +1,14 @@
 class MsgsController < ApplicationController
-    before_action :set_post, only: [:edit,:update,:show,:destroy]
+    before_action :set_msg, only: [:edit,:update,:show,:destroy]
     def index
         @msgs = Msg.all
     end
 
     private
-        def post_params
-            params.require(:post).permit(:title, :body)
+        def msg_params
+            params.require(:msg).permit(:title, :body)
         end
-        def set_post
-            @post = Post.find(params[:id])
+        def set_msg
+            @msg = msg.find(params[:id])
         end
 end
