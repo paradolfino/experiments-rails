@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180117033718) do
+ActiveRecord::Schema.define(version: 20180118003627) do
 
   create_table "dictionaries", force: :cascade do |t|
     t.string "engword"
@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(version: 20180117033718) do
     t.string "norword_sing_def"
     t.string "norword_plur_def"
     t.text "norword_usage"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "msgs", force: :cascade do |t|
+    t.string "title"
+    t.text "body"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
