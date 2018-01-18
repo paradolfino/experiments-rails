@@ -29,7 +29,7 @@ class UsersController < ApplicationController
         end
     
         def show
-            
+            @msgs = Msg.all
             @user = User.find(params[:id])
             @articles = @user.articles
         end
