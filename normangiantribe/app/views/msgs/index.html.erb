@@ -1,4 +1,5 @@
 <% @msgs.each do |msg| %>
     <h3><%= msg.title %></h3>
     <p><%= msg.body %></p>
+    <small>Created by <%= msg.user.username if msg.user %></small>
 <% end %>
