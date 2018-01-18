@@ -1,2 +1,14 @@
 <h3><%= @user.username %></h3>
-<% @article.each do |article| %>
+<% @posts.each do |post| %>
+    <div class="post">
+        <div class="post-title">
+            <h5>[<%= truncate(post.title, length: 15) %>]</h5>
+        </div>
+        <div class="post-body">
+            <p><%= truncate(post.body, length: 100) %></p>
+        </div>
+        <div class="post-meta">
+            <small><em>Created <strong><%= time_ago_in_words(post.created_at) %></strong> ago.</em></small>
+        </div>
+    </div>
+<% end %>
