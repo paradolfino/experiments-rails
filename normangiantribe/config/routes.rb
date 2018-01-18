@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'about', to: 'main#about'
   resources :posts
   resources :users
-  resources :threads
+  resources :msgs
 end
