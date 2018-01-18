@@ -48,3 +48,4 @@
 16/01/2018 19:29:pool[rapid-steaming-cow-sl1fc7]: add users index with links and counts to each user and its articles, add user info to each article
 16/01/2018 21:35:pool[rapid-living-river-5o1ln3]: add users controller, add user model, add migration for users table, add posts controller, add post model, add migration for posts table, install bcrypt, set up user validation, designate production group gems including postgresql
 16/01/2018 21:54:pool[serene-rolling-cow-k2ns6d]: add password_digest, add one to many association between users and threads, add users index, add users and threads as resources to routes
+17/01/2018 19:04:pool[serene-rolling-rabbit-85g8rv]: destroy thread model, destroy threads controller, destroy threads index view, create msg model, create msgs controller, create msgs migration with built in user_id field, add index action to msgs controller, create msgs index view, associate one to many with users and msgs
