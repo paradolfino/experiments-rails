@@ -8,7 +8,7 @@
             <p><%= truncate(msg.body, length: 100) %></p>
         </div>
         <div class="post-meta">
-            <small><em>Created <strong><%= time_ago_in_words(post.created_at) %></strong> ago.</em></small>
+            <small><em>Created <strong><%= time_ago_in_words(msg.created_at) %></strong> ago.</em></small>
         </div>
     </div>
 <% end %>
