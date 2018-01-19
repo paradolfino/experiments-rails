@@ -1,16 +1,16 @@
 <% @users.each do |user| %>
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-            <div class="well well-lg">
-                <div class="user-img">
-                    <%= link_to gravatar_for(user), user_path(user) %>
-                </div>
-                <div class="user-title">
-                    <%= link_to truncate(user.username, length: 15), user_path(user) %>
-                </div>
-                <hr>
-                <small><%= pluralize(user.articles.count, "article") if user.articles %></small>
+            
+            <div class="user-img">
+                <%= link_to gravatar_for(user), user_path(user) %>
             </div>
+            <div class="user-title">
+                <%= link_to truncate(user.username, length: 15), user_path(user) %>
+            </div>
+            <hr>
+            <small><%= pluralize(user.articles.count, "article") if user.articles %></small>
+
         </div>
     </div>
 <% end %>
