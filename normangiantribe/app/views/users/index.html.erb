@@ -5,7 +5,7 @@
 <% @users.each do |user| %>
     <div class="post">
         <div class="post-title">
-            <h5>[<%= truncate(user.username, length: 15) %>]</h5>
+            <h5>[<%= link_to truncate(user.username, length: 15), user_path(user) %>]</h5>
         </div>
     </div>
 <% end %>
