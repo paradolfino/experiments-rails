@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
 
         else
             flash.now[:danger] = 'There was something wrong with your credentials.'
+            render 'new'
         end
     end
 
