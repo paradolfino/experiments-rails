@@ -1,7 +1,6 @@
 <% @users.each do |user| %>
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-            <h3>Created by </h3>
             <div class="user-img">
                 <%= link_to gravatar_for(user), user_path(user) %>
             </div>
