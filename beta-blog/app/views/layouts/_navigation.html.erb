@@ -20,8 +20,8 @@
           <ul class="dropdown-menu">
             <% if logged_in? %>
               <li class="dropdown-item"><%= link_to "New Article", new_article_path %></li>
-              <li class="dropdown-item"><%= link_to "View Profile", current_user ? user_path(current_user) : login_path  %></li>
-              <li class="dropdown-item"><%= link_to "Edit Profile", current_user ? edit_user_path(current_user) : login_path  %></li>
+              <li class="dropdown-item"><%= link_to "View Profile", user_path(current_user)  %></li>
+              <li class="dropdown-item"><%= link_to "Edit Profile", edit_user_path(current_user) %></li>
             <% end %>
           </ul>
         </li>
