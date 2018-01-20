@@ -12,8 +12,7 @@ class ArticlesController < ApplicationController
     end
 
     def edit
-        flash[:danger] = "You need to be logged in to do that."
-        redirect_to login_path
+
     end
 
     def create
