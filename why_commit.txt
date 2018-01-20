@@ -55,3 +55,4 @@
 18/01/2018 20:47:pool[brilliant-steaming-mountain-at1vvy]: add sessions controller, add new - post - destroy routes for sessions, add new - create -destroy methods to sessions controller, add new session view, setup basic authentication
 18/01/2018 21:03:pool[rapid-rolling-cow-m3d74u]: add basic placeholder elements to posts index view, add same to users index view, link posts in index to post_path, link users in index to user_path
 19/01/2018 20:02:pool[pretty-rolling-river-p7x43a]: test integration of httparty gem with rails
+19/01/2018 21:22:pool[pretty-shining-rabbit-w15gqp]: add current user method to application controller, add logged in method to application controller, add require user method to application controller, add current_user and logged in as helper methods, modify article partial and footer partial to show login/logout link based on logged in method
