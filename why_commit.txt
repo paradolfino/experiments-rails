@@ -58,3 +58,4 @@
 19/01/2018 21:22:pool[pretty-shining-rabbit-w15gqp]: add current user method to application controller, add logged in method to application controller, add require user method to application controller, add current_user and logged in as helper methods, modify article partial and footer partial to show login/logout link based on logged in method
 19/01/2018 21:48:pool[rapid-shining-mountain-rdv25n]: add restrictons to navigation partial if !logged_in, add restrictions to home view if !logged_in, add View/Edit profile links to navigation partial, show home view only if !logged_in else show current user articles index view
 19/01/2018 22:11:pool[pretty-living-river-n2ghw6]: add restrictions at controller level for articles and users
+20/01/2018 17:25:pool[serene-living-rabbit-g88zar]: add portfolio resources
