@@ -46,5 +46,11 @@ class UsersController < ApplicationController
         def set_user
             @user = User.find(params[:id])
         end
+        def require_same_user
+            if !logged_in? @ current_user != @user
+                flash[:danger] = "You can only edit or delete your own article."
+                redirect_to articles_path
+            end
+        end
 end
   
