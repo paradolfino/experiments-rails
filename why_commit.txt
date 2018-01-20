@@ -56,3 +56,4 @@
 18/01/2018 21:03:pool[rapid-rolling-cow-m3d74u]: add basic placeholder elements to posts index view, add same to users index view, link posts in index to post_path, link users in index to user_path
 19/01/2018 20:02:pool[pretty-rolling-river-p7x43a]: test integration of httparty gem with rails
 19/01/2018 20:30:pool[pretty-shining-rabbit-ssem3e]: generate pages controller with home - about - contact
+19/01/2018 20:39:pool[pretty-steaming-mountain-gw4432]: practice with rails controller generation
