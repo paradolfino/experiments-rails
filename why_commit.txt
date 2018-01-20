@@ -55,6 +55,10 @@
 18/01/2018 20:47:pool[brilliant-steaming-mountain-at1vvy]: add sessions controller, add new - post - destroy routes for sessions, add new - create -destroy methods to sessions controller, add new session view, setup basic authentication
 18/01/2018 21:03:pool[rapid-rolling-cow-m3d74u]: add basic placeholder elements to posts index view, add same to users index view, link posts in index to post_path, link users in index to user_path
 19/01/2018 20:02:pool[pretty-rolling-river-p7x43a]: test integration of httparty gem with rails
+19/01/2018 20:30:pool[pretty-shining-rabbit-ssem3e]: generate pages controller with home - about - contact
+19/01/2018 20:39:pool[pretty-steaming-mountain-gw4432]: practice with rails controller generation
+19/01/2018 20:55:pool[serene-rolling-mountain-mi2ty7]: generate skill model, db migrate, test entries with rails console
 19/01/2018 21:22:pool[pretty-shining-rabbit-w15gqp]: add current user method to application controller, add logged in method to application controller, add require user method to application controller, add current_user and logged in as helper methods, modify article partial and footer partial to show login/logout link based on logged in method
 19/01/2018 21:48:pool[rapid-shining-mountain-rdv25n]: add restrictons to navigation partial if !logged_in, add restrictions to home view if !logged_in, add View/Edit profile links to navigation partial, show home view only if !logged_in else show current user articles index view
 19/01/2018 22:11:pool[pretty-living-river-n2ghw6]: add restrictions at controller level for articles and users
+
