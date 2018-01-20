@@ -15,11 +15,10 @@ class UsersController < ApplicationController
     end
 
     def edit
-        @user = User.find(params[:id])
+
     end
 
     def update
-        @user = User.find(params[:id])
         if @user.update(user_params)
             flash[:success] = "User was successfully updated"
             render 'edit'
@@ -30,7 +29,6 @@ class UsersController < ApplicationController
 
     def show
         
-        @user = User.find(params[:id])
         @articles = @user.articles.paginate(page: params[:page], per_page: 5)
     end
 
@@ -42,6 +40,9 @@ class UsersController < ApplicationController
     private
         def user_params
             params.require(:user).permit(:username, :email, :password)
+        end
+        def set_user
+            @user = User.find(params[:id])
         end
 end
   
