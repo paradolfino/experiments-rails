@@ -1,6 +1,8 @@
 <footer class="footer">
     <small> Footer Feetsies </small>
     <% if logged_in? %>
-    <p><%= link_to 'Logout', logout_path, method: :delete %></p>
+        <p><%= link_to 'Logout', logout_path, method: :delete %></p>
+    <% else %>
+        <p><%= link_to 'Login', login_path %></p>
     <% end %>
 </footer>
