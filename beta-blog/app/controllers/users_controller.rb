@@ -49,7 +49,7 @@ class UsersController < ApplicationController
         def require_same_user
             if !logged_in? @ current_user != @user
                 flash[:danger] = "You can only edit or delete your own article."
-                redirect_to articles_path
+                redirect_to root_path
             end
         end
 end
