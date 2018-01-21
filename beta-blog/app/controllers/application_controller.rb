@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
     !!current_user #convert to boolean
   end
 
-  def require_user
+  def require_user(action)
     if !logged_in?
       flash[:danger] = "You must be logged in to perform that action"
       redirect_to signup_path
