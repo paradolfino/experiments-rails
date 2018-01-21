@@ -61,7 +61,7 @@ class UsersController < ApplicationController
             end
         end
         def require_admin
-            if !current_user.admin?
+            if logged_in? and !current_user.admin?
                 flash[:danger] = "You need elevated permissions to do that!"
                 redirect_to root_path
             end
