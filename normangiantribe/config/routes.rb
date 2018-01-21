@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root 'main#home'
   get 'about', to: 'main#about'
   resources :posts
-  resources :users
+  resources :users, except: [:new]
   resources :msgs
+  get 'join', to: 'users#new'
+  post 'users', to: 'users#create'
 end
