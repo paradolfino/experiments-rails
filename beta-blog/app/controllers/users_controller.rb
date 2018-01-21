@@ -36,7 +36,9 @@ class UsersController < ApplicationController
     end
 
     def destroy
+        @user.destroy
         flash[:danger] = "User and all related articles have been destroyed."
+        
     end
 
     def index
