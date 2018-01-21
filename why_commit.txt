@@ -63,3 +63,5 @@
 20/01/2018 17:25:pool[serene-living-rabbit-g88zar]: add portfolio resources
 
 20/01/2018 18:00:pool[serene-living-rabbit-ub01cy]: practice with generator customization
+20/01/2018 19:25:pool[brilliant-rolling-mountain-562s03]: add signin upon signup, fix require_user error by adding :new and :create to before_action
+20/01/2018 19:59:pool[rapid-living-rabbit-0aby27]: add admin user functionality to destroy users - articles - user/articles
