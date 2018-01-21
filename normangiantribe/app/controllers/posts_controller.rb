@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
     before_action :set_post, only: [:edit,:update,:show,:destroy]
     before_action :require_user, except: [:index, :show, :new, :create ]
-    before_action :require_admin, only: [:destroy]
+    before_action :require_admin, only: [:new, :create, :edit, :update, :destroy]
     def index
         @posts = Post.all
     end
