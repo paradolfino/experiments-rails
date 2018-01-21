@@ -9,6 +9,7 @@
             </div>
             <div class="user-title">
                 <%= link_to truncate(user.username, length: 15), user_path(user) %>
+                <%= link_to "Destroy User", user_path(user), method: :delete, data: { confirm: "Are you certain about doing this?" } %>
             </div>
             <hr>
             <small><%= pluralize(user.articles.count, "article") if user.articles %></small>
