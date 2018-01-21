@@ -62,3 +62,4 @@
 19/01/2018 20:39:pool[pretty-steaming-mountain-gw4432]: practice with rails controller generation
 20/01/2018 17:25:pool[serene-living-rabbit-g88zar]: add portfolio resources
 
+20/01/2018 18:00:pool[serene-living-rabbit-ub01cy]: practice with generator customization
