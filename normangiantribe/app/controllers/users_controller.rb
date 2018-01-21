@@ -43,5 +43,17 @@ class UsersController < ApplicationController
             def set_user
                 @user = User.find(params[:id])
             end
+            def require_same_user
+                if current_user != @user and !current_user.admin?
+                    flash[:danger] = "You can only edit yourself!"
+                    redirect_to root_path
+                end
+            end
+            def require_admin
+                if logged_in? and !current_user.admin?
+                    flash[:danger] = "You need elevated permissions to do that!"
+                    redirect_to root_path
+                end
+            end
       
 end
