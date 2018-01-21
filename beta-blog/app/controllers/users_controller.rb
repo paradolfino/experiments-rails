@@ -35,6 +35,10 @@ class UsersController < ApplicationController
         @articles = @user.articles.paginate(page: params[:page], per_page: 5)
     end
 
+    def show
+        
+    end
+
     def index
         @users = User.paginate(page: params[:page], per_page: 5)
         
