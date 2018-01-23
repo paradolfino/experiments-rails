@@ -12,6 +12,7 @@ rand(5).times { |skill| Skill.create!(title: "My Skill #{skill}!", percent_utili
 rand(9).times do |p|
     Portfolio.create!(
         title: "Title #{p}",
-        subtitle: "Subtitle #{p}"
+        subtitle: "Subtitle #{p}",
+        body: "Body #{p} stuff!!!!"
         )
 end
