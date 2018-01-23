@@ -11,10 +11,10 @@ rand(5).times { |skill| Skill.create!(title: "My Skill #{skill}!", percent_utili
 
 rand(9).times do |p|
     Portfolio.create!(
-        title: "Title #{p}",
-        subtitle: "Subtitle #{p}",
-        body: "Body #{p} stuff!!!!",
-        main_image: "http://via.placeholder.com/600x400",
-        thumb_image: "http://via.placeholder.com/350x200"
+            title: "Title #{p}",
+            subtitle: "Subtitle #{p}",
+            body: "Body #{p} stuff!!!!",
+            main_image: "http://via.placeholder.com/600x400",
+            thumb_image: "http://via.placeholder.com/350x200"
         )
 end
