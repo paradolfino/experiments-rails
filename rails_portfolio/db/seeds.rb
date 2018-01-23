@@ -14,7 +14,7 @@ rand(9).times do |p|
         title: "Title #{p}",
         subtitle: "Subtitle #{p}",
         body: "Body #{p} stuff!!!!",
-        main_image: ,
+        main_image: "http://via.placeholder.com/600x400",
         thumb_image: "http://via.placeholder.com/350x200"
 
         )
