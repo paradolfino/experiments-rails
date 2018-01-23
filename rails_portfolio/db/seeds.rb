@@ -13,6 +13,9 @@ rand(9).times do |p|
     Portfolio.create!(
         title: "Title #{p}",
         subtitle: "Subtitle #{p}",
-        body: "Body #{p} stuff!!!!"
+        body: "Body #{p} stuff!!!!",
+        main_image: ,
+        thumb_image: "http://via.placeholder.com/350x200"
+
         )
 end
