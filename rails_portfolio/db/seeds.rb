@@ -8,3 +8,10 @@
 arr = (a..z).to_a
 rand(25).times { |blog| Blog.create!(title: "My Blog #{blog}!", body: "#Test Content") }
 rand(5).times { |skill| Skill.create!(title: "My Skill #{skill}!", percent_utilized: rand(100)) }
+
+rand(9).times do |p|
+    Portfolio.create!(
+        title: "Title #{p}",
+        subtitle: "Subtitle #{p}"
+        )
+end
