@@ -5,5 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+arr = (a..z).to_a
 rand(25).times { |blog| Blog.create!(title: "My Blog #{blog}!") }
+rand(5).times { |skill| Skill.create!(title: "My Blog #{blog}!") }
