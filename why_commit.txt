@@ -67,3 +67,4 @@
 20/01/2018 19:59:pool[rapid-living-rabbit-0aby27]: add admin user functionality to destroy users - articles - user/articles
 20/01/2018 21:05:pool[rapid-shining-rabbit-lnk03g]: add sessions controller, add login form, add authentication methods to application controller, add authentication methods to msgs - users - posts controllers, add restrictions to ui based on logged_in?
 22/01/2018 19:19:pool[brilliant-steaming-cow-q32u2x]: create seed file for sample data
+22/01/2018 19:32:pool[rapid-shining-river-33t526]: add index action to portfolios controller, add basic erb output - including image_tag to portfolios index view
