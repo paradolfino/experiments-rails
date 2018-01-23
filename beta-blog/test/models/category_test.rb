@@ -6,6 +6,6 @@ class CategoryTest < ActiveSupport::TestCase
     end
 
     test "category should be valid" do
-
+        #assertion
     end
 end
