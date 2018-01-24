@@ -4,9 +4,7 @@ class PortfoliosController < ApplicationController
         @portfolios = Portfolio.all
     end
 
-    def show
-
-    end
+    def show; end
 
     def new
         @portfolio = Portfolio.new
