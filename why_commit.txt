@@ -69,3 +69,5 @@
 22/01/2018 19:19:pool[brilliant-steaming-cow-q32u2x]: create seed file for sample data
 22/01/2018 19:32:pool[rapid-shining-river-33t526]: add index action to portfolios controller, add basic erb output - including image_tag to portfolios index view
 22/01/2018 20:02:pool[rapid-shining-river-2th80k]: add category_test to test models, add CategoryTest class with setup method and test skeleton method
+23/01/2018 19:24:pool[rapid-rolling-mountain-k8b61z]: integrate new - create - show - edit - update actions to portfolios controller, add before_action set_portfolios private method, add params_portfolio private method to controller, add portfolios new view, add show view, add messages partial to views\layouts
+23/01/2018 19:49:pool[pretty-steaming-rabbit-o3u1iu]: fix update action in portfolios controller, add link_to from show to index and from index to edit
