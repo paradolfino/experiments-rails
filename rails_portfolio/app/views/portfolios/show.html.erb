@@ -1,3 +1,4 @@
 <h2><%= @portfolio.title %></h2>
 <h4><%= @portfolio.subtitle if @portfolio.subtitle %></h4>
 <p><%= @portfolio.body %></p>
+<%= image_tag, @portfolio.thumb_image if @portfolio.thumb_image %>
