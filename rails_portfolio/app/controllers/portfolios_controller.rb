@@ -11,4 +11,10 @@ class PortfoliosController < ApplicationController
     def create
 
     end
+
+    private
+
+        def params_portfolio
+
+        end
 end
