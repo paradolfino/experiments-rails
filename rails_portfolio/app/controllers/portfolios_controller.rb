@@ -9,7 +9,7 @@ class PortfoliosController < ApplicationController
     end
 
     def create
-        @portfolio = Portfolio.new()
+        @portfolio = Portfolio.new(params_portfolio)
 
     end
 
