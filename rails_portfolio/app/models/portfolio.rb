@@ -1,4 +1,4 @@
 class Portfolio < ApplicationRecord
-    validates :title, presence: true
-    validates :body, presence: true
+    validates :title, presence: true, length: { minimum: 3, maximum: 50 }
+    validates :body, presence: true, length: { minimum: 3, maximum: 500 }
 end
