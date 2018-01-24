@@ -30,7 +30,7 @@ class PortfoliosController < ApplicationController
     def update
         if @portfolio.update
             flash[:success] = "Portfolio Item was successfully updated!"
-            redirect_to portfolios_path
+            redirect_to portfolio_path(@portfolio)
         else
             render 'edit'
         end
