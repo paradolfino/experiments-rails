@@ -13,4 +13,8 @@ class CategoryTest < ActiveSupport::TestCase
     test "name should be present" do
         assert_not @category.valid?
     end
+
+    test "name should be unique" do
+        
+    end
 end
