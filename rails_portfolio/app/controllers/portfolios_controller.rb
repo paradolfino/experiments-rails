@@ -29,7 +29,7 @@ class PortfoliosController < ApplicationController
 
     def update
         if @portfolio.save
-            flash[:success] = "Portfolio Item was successfully created"
+            flash[:success] = "Portfolio Item was successfully updated!"
             redirect_to portfolios_path
         else
             render 'new'
