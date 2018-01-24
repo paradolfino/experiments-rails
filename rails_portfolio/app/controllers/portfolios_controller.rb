@@ -9,12 +9,13 @@ class PortfoliosController < ApplicationController
     end
 
     def create
-
+        @portfolio = Portfolio.new
+        
     end
 
     private
 
         def params_portfolio
-
+            params.require(:portfolio).permit(:title, :description)
         end
 end
