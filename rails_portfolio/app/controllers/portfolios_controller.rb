@@ -23,6 +23,10 @@ class PortfoliosController < ApplicationController
 
     end
 
+    def edit
+
+    end
+
 
 
     private
