@@ -11,6 +11,6 @@ class CategoryTest < ActiveSupport::TestCase
     end
 
     test "name should be present" do
-        assert_not @category.valid
+        assert_not @category.valid?
     end
 end
