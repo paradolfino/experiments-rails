@@ -4,6 +4,10 @@ class PortfoliosController < ApplicationController
         @portfolios = Portfolio.all
     end
 
+    def show
+
+    end
+
     def new
         @portfolio = Portfolio.new
     end
@@ -18,6 +22,8 @@ class PortfoliosController < ApplicationController
         end
 
     end
+
+
 
     private
 
