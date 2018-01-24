@@ -32,7 +32,7 @@ class PortfoliosController < ApplicationController
             flash[:success] = "Portfolio Item was successfully updated!"
             redirect_to portfolios_path
         else
-            render 'new'
+            render 'edit'
         end
     end
 
