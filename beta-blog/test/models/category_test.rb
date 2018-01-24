@@ -9,4 +9,8 @@ class CategoryTest < ActiveSupport::TestCase
         #assertion
         assert @category.valid?
     end
+
+    test "name should be present" do
+        assert_not @category.valid
+    end
 end
