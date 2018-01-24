@@ -23,7 +23,7 @@ class PortfoliosController < ApplicationController
 
     end
 
-    def edit() end
+    def edit; end
 
     def update
         if @portfolio.update(params_portfolio)
