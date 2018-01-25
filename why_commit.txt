@@ -76,3 +76,4 @@
 24/01/2018 19:19:pool[rapid-shining-rabbit-k50i0q]: implement destroy action for portfolios controller
 24/01/2018 19:35:pool[brilliant-steaming-river-n865f1]: customize portfolio routes
 24/01/2018 19:54:pool[brilliant-living-cow-j132d7]: begin implement of friendly_id gem
+24/01/2018 20:12:pool[rapid-shining-mountain-5u7280]: implement category tests at controller lever, add categories controller, add show - new - index views for categories controller, add show - new - index actions for categories controller
