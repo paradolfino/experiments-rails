@@ -15,7 +15,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
     test "invalid category submission result in fail" do
         get new_category_path
         assert_template 'categories/new'
-        assert_difference 'Category.count', 1 do
+        assert_no_difference 'Category.count' do
             post categories_path, params: { category: {name: "sports"}}
         end
         assert_template "categories/index"
