@@ -10,6 +10,8 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
 
     end
 
-    tes
+    test "should get show" do
+
+    end
 
 end
