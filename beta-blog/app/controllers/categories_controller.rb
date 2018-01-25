@@ -12,7 +12,12 @@ class CategoriesController < ApplicationController
     end
 
     def create
+        @category = Category.new(params_category)
+        if @category.save
 
+        else
+            render 'new'
+        end
     end
 
 
