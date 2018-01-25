@@ -36,6 +36,10 @@ class PortfoliosController < ApplicationController
         
     end
 
+    def destroy
+
+    end
+
 
     private
         def set_portfolios
