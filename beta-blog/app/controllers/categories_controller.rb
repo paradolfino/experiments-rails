@@ -1,5 +1,4 @@
 class CategoriesController < ApplicationController
-    before_action :set_category, only: [:create]
     def index
 
     end
@@ -13,7 +12,9 @@ class CategoriesController < ApplicationController
     end
 
     def create
-        
+
     end
+
+
 end
   
