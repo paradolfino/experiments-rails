@@ -39,7 +39,7 @@ class PortfoliosController < ApplicationController
     def destroy
         @portfolio.destroy
         flash[:danger] = "Portfolio was successfully deleted."
-        redirect_to articles_path
+        redirect_to portfolios_path
     end
 
 
