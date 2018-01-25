@@ -37,7 +37,7 @@ class PortfoliosController < ApplicationController
     end
 
     def destroy
-
+        @portfolio.destroy
     end
 
 
