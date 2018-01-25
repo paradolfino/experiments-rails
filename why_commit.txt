@@ -80,3 +80,4 @@
 24/01/2018 20:37:pool[serene-steaming-rabbit-23s1nv]: implement full create category test, add categories form partial, add params_category private method to controller, add if save block to controller, run tests - 2 failures - 0 errors
 24/01/2018 20:46:pool[rapid-rolling-river-h73dkb]: implement test for invalid category
 24/01/2018 20:52:pool[brilliant-living-cow-cd0ifi]: implement list categories test
+24/01/2018 20:58:pool[serene-rolling-mountain-7r3jq5]: add admin user column, add require_same_user to msgs controller and check for admin
