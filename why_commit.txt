@@ -75,3 +75,4 @@
 23/01/2018 20:18:pool[serene-shining-mountain-4wdt1v]: add tests for presence - uniqueness - length - shortness of category.name
 24/01/2018 19:19:pool[rapid-shining-rabbit-k50i0q]: implement destroy action for portfolios controller
 24/01/2018 19:35:pool[brilliant-steaming-river-n865f1]: customize portfolio routes
+24/01/2018 19:54:pool[brilliant-living-cow-j132d7]: begin implement of friendly_id gem
