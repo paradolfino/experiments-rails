@@ -12,4 +12,8 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
         assert_match "sports", response.body
     end
 
+    test "invalid category submission result in fail" do
+
+    end
+
 end
