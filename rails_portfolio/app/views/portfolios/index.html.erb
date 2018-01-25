@@ -1,7 +1,7 @@
 [<%= link_to "New", new_portfolio_path %>]
 <% @portfolios.each do |item| %>
 
-    <h1><%= link_to item.title, portfolio_path(item) %> [<%= link_to "Edit", edit_portfolio_path(item) %>] [<%= link_to "Destroy", portfolio_path(item), method: :delete, data: {confirm: "Are you sure!?"}  %>]</h1>
+    <h1><%= link_to item.title, portfolio_path(item) %> [<%= link_to "Edit", edit_portfolio_path(item) %>] [<%= link_to "Destroy", portfolio_show_path(item), method: :delete, data: {confirm: "Are you sure!?"}  %>]</h1>
     <h2><%= item.subtitle %></h2>
     <p><%= item.body %></p>
     <%= image_tag item.thumb_image if item.thumb_image %>
