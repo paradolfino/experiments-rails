@@ -74,3 +74,4 @@
 23/01/2018 20:02:pool[serene-steaming-cow-3w74io]: add link_to from index to show view, add erb to show view with image_tag and link_to to index view
 23/01/2018 20:18:pool[serene-shining-mountain-4wdt1v]: add tests for presence - uniqueness - length - shortness of category.name
 24/01/2018 19:19:pool[rapid-shining-rabbit-k50i0q]: implement destroy action for portfolios controller
+24/01/2018 19:35:pool[brilliant-steaming-river-n865f1]: customize portfolio routes
