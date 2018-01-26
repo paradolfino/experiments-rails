@@ -63,7 +63,7 @@ class BlogsController < ApplicationController
 
   def toggle_status
     @blog.published!
-    redirect blogs_path
+    redirect_to blogs_path
   end
 
   private
