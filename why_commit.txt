@@ -83,3 +83,4 @@
 24/01/2018 20:58:pool[serene-rolling-mountain-7r3jq5]: add admin user column, add require_same_user to msgs controller and check for admin
 25/01/2018 19:27:pool[rapid-steaming-river-3038l1]: implement friendly_id gem, update status for enum
 25/01/2018 20:02:pool[pretty-living-rabbit-irae4y]: implement custom action toggle status
+25/01/2018 20:12:pool[pretty-steaming-river-0ffzl4]: implement friendly_id with portfolio model, implement enum status with portfolio model, update all portfolios entries to reflect slug and status
