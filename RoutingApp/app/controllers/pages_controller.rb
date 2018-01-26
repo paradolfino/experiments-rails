@@ -9,6 +9,6 @@ class PagesController < ApplicationController
   end
 
   def something
-
+    params[:noen]
   end
 end
