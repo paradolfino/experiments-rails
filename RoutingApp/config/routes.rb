@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   namespace :admin do
-    get 'dashboard#main'
+    get 'dashboard/main'
     get 'dashboard/user'
     get 'dashboard/blog'
   end
