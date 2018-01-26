@@ -62,7 +62,7 @@ class BlogsController < ApplicationController
   end
 
   def toggle_status
-    @blog.published!
+    @blog.status!
   end
 
   private
