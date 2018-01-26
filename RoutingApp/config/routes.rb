@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  namespace :admin do
+    
+  end
+
   get 'about', to: 'pages#about'
 
   #get 'contact', to: 'pages#contact'
