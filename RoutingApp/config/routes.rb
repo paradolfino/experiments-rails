@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  namespace :admin do
+  namespace :admin do #nesting
     get 'dashboard/main'
     get 'dashboard/user'
     get 'dashboard/blog'
