@@ -62,6 +62,7 @@ class BlogsController < ApplicationController
   end
 
   def toggle_status
+    byebug
     @blog.status!
   end
 
