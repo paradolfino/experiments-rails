@@ -14,6 +14,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   resources :blogs
+
+  #custom built resource routes
   get 'posts', to: 'posts#index', as: 'posts'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
