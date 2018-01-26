@@ -63,7 +63,6 @@ class BlogsController < ApplicationController
 
   def toggle_status
     byebug
-    @blog.status!
     redirect blogs_path
   end
 
