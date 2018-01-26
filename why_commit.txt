@@ -81,3 +81,4 @@
 24/01/2018 20:46:pool[rapid-rolling-river-h73dkb]: implement test for invalid category
 24/01/2018 20:52:pool[brilliant-living-cow-cd0ifi]: implement list categories test
 24/01/2018 20:58:pool[serene-rolling-mountain-7r3jq5]: add admin user column, add require_same_user to msgs controller and check for admin
+25/01/2018 19:27:pool[rapid-steaming-river-3038l1]: implement friendly_id gem, update status for enum
