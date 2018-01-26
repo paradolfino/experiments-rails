@@ -1,4 +1,4 @@
-class DashboardController < ApplicationController
+class Admin::DashboardController < ApplicationController
     def main
     end
   
