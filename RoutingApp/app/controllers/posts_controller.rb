@@ -31,4 +31,9 @@ class PostsController < ApplicationController
     def missing
 
     end
+
+    private
+        def set_posts
+
+        end
 end
