@@ -35,7 +35,7 @@ class WordsController < ApplicationController
 
   def word_params
     # whitelist params
-    params.permit(:title, :created_by)
+    params.permit(:english, :single, :plural, :definite, :definite_plural)
   end
 
   def set_word
