@@ -4,13 +4,13 @@ class WordsController < ApplicationController
 
   # GET /words
   def index
-    @words = word.all
+    @words = Word.all
     json_response(@words)
   end
 
   # POST /words
   def create
-    @word = word.create!(word_params)
+    @word = Word.create!(word_params)
     json_response(@word, :created)
   end
 
@@ -39,6 +39,6 @@ class WordsController < ApplicationController
     end
 
     def set_word
-        @word = word.find(params[:id])
+        @word = Word.find(params[:id])
     end
 end
