@@ -89,3 +89,4 @@
 27/01/2018 11:29:pool[rapid-shining-rabbit-jcyidg]: integrate validations for models, integrate relationships between models, integrate model testing with rspec
 27/01/2018 13:47:pool[rapid-rolling-rabbit-pp47h1]: create words controller, test api with jquery: success
 27/01/2018 17:24:pool[serene-living-mountain-tkt53m]: add sentences controller, nest sentences with words json on request
+27/01/2018 17:52:pool[pretty-rolling-cow-z8p56e]: add columns for tenses to words model
