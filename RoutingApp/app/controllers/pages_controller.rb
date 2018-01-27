@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def something
+  def noen
     @noen = params[:noen]
   end
 end
