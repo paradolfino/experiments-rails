@@ -4,5 +4,5 @@ class Sentence < ApplicationRecord
     validates :entry,
     presence: true,
     uniqueness: { case_sensitive: false }, 
-    length: { minimum: 3, maximum: 25 }
+    length: { minimum: 3, maximum: 150 }
 end
