@@ -6,6 +6,7 @@ RSpec.describe Word, type: :model do
   it { should have_many(:sentences).dependent(:destroy) }
   # Validation tests
   #ensure columns exist
+  it { should validate_presence_of(:english) }
   it { should validate_presence_of(:single) }
   it { should validate_presence_of(:plural) }
   it { should validate_presence_of(:definite) }
