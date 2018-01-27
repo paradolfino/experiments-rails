@@ -16,9 +16,7 @@ class WordsController < ApplicationController
 
   # GET /words/:id
   def show
-    #json_response(@word)
-    
-    render :json => @word.to_json(:include => @word.sentences)
+    json_response([@word, @word.sentences])
     
   end
 
