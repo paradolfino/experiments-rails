@@ -88,3 +88,4 @@
 27/01/2018 10:19:pool[serene-rolling-cow-72f1kl]: generate project, set up gem groups for dev and prod, add word model, add sentence model with reference to word
 27/01/2018 11:29:pool[rapid-shining-rabbit-jcyidg]: integrate validations for models, integrate relationships between models, integrate model testing with rspec
 27/01/2018 13:47:pool[rapid-rolling-rabbit-pp47h1]: create words controller, test api with jquery: success
+27/01/2018 17:24:pool[serene-living-mountain-tkt53m]: add sentences controller, nest sentences with words json on request

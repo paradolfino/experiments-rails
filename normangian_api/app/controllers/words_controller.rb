@@ -16,7 +16,8 @@ class WordsController < ApplicationController
 
   # GET /words/:id
   def show
-    json_response(@word)
+    json_response([@word, @word.sentences])
+    
   end
 
   # PUT /words/:id
