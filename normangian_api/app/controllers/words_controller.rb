@@ -33,12 +33,12 @@ class WordsController < ApplicationController
 
   private
 
-  def word_params
-    # whitelist params
-    params.permit(:english, :single, :plural, :definite, :definite_plural)
-  end
+    def word_params
+        # whitelist params
+        params.permit(:english, :single, :plural, :definite, :definite_plural)
+    end
 
-  def set_word
-    @word = word.find(params[:id])
-  end
+    def set_word
+        @word = word.find(params[:id])
+    end
 end
