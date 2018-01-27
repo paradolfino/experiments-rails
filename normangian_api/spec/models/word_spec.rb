@@ -12,10 +12,3 @@ RSpec.describe Word, type: :model do
   it { should validate_presence_of(:definite) }
   it { should validate_presence_of(:definite_plural) }
 end
-
-
-t.string "english"
-    t.string "single"
-    t.string "plural"
-    t.string "definite"
-    t.string "definite_plural"
