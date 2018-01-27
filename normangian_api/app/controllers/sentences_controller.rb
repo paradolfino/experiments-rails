@@ -35,7 +35,7 @@ class SentencesController < ApplicationController
 
     def sentence_params
         # whitelist params
-        params.permit(:english, :single, :plural, :definite, :definite_plural)
+        params.permit(:entry, :translation)
     end
 
     def set_sentence
