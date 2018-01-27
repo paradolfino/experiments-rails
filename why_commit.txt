@@ -85,3 +85,4 @@
 25/01/2018 20:02:pool[pretty-living-rabbit-irae4y]: implement custom action toggle status
 25/01/2018 20:12:pool[pretty-steaming-river-0ffzl4]: implement friendly_id with portfolio model, implement enum status with portfolio model, update all portfolios entries to reflect slug and status
 25/01/2018 21:01:pool[pretty-shining-rabbit-7l1tz6]: general practice with constructing routes from scratch
+27/01/2018 10:19:pool[serene-rolling-cow-72f1kl]: generate project, set up gem groups for dev and prod, add word model, add sentence model with reference to word
