@@ -8,7 +8,4 @@ RSpec.describe Word, type: :model do
   #ensure columns exist
   it { should validate_presence_of(:english) }
   it { should validate_presence_of(:single) }
-  it { should validate_presence_of(:plural) }
-  it { should validate_presence_of(:definite) }
-  it { should validate_presence_of(:definite_plural) }
 end
