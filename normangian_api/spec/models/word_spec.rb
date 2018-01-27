@@ -9,6 +9,7 @@ RSpec.describe Word, type: :model do
   it { should validate_presence_of(:single) }
   it { should validate_presence_of(:plural) }
   it { should validate_presence_of(:definite) }
+  it { should validate_presence_of(:definite_plural) }
 end
 
 
