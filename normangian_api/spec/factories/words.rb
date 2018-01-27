@@ -1,4 +1,4 @@
-# spec/factories/todos.rb
+
 FactoryGirl.define do
     factory :word do
       english { Faker::Lorem.word }
