@@ -7,4 +7,12 @@ RSpec.describe Word, type: :model do
   # Validation tests
   #ensure columns exist
   it { should validate_presence_of(:single) }
+  it { should validate_presence_of(:plural) }
 end
+
+
+t.string "english"
+    t.string "single"
+    t.string "plural"
+    t.string "definite"
+    t.string "definite_plural"
