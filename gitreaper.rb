@@ -11,8 +11,13 @@
 
 =end
 
-class GitReaper
+$LOAD_PATH << '.'
+require 'pathname'
+require 'threader'
 
+class GitReaper
+    include Threader
+    @@pushes = 0
     @@color_red = "\033[31m"
     @@color_green = "\033[32m"
     @@color_default = "\033[0m"
@@ -59,20 +64,55 @@ class GitReaper
         open('why_commit.txt', 'a') do |file|
             file.puts "#{Time.now.strftime("%d/%m/%Y %H:%M")}:pool[#{pool}]: #{why}"
         end
+        changes = why.strip.split(",")
+        changes.map! {|item| item = "* #{item.strip}"}
+        
+        open('pull_me.txt', 'a') do |file|
+            file.puts "### pool[#{pool}]:"
+            file.puts changes
+            file.puts
+        end
         GitReaper.add_wait
         GitReaper.execute "git commit -m \"pool[#{pool}]: #{why}\""
+        
+    end
+
+    def self.exit(exit_type, pool, branch)
+        case exit_type
+        when "push"
+            puts "Summarize changes made:"
+            summary = gets.chomp
+            GitReaper.atomic(summary, pool)
+            GitReaper.start
+        when "kill"
+            puts "Wiping commits and exiting"
+            system "git reset HEAD~"
+        when "reap"
+            puts "Summarize final changes:"
+            summary = gets.chomp
+            GitReaper.atomic(summary, pool)
+            puts "Reaping #{@@commits-1} commits to pool on branch: #{branch}"
+            GitReaper.execute "git push -u origin #{branch}"
+        else
+            puts "Returning to loop"
+            GitReaper.threader(branch)
+        end
     end
 
     def self.threader(branch)
-        thread_bits = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-        thread_bits_adjs = ['serene','rapid','brilliant','pretty']
-        thread_bits_verbs = ['rolling','living','shining','steaming']
-        thread_bits_nouns = ['cow','rabbit','mountain','river']
+        pn = Pathname.new('threader.rb')
         thread_pool = []
         thread_fork = [0,1]
-        thread_pool.push(thread_bits_adjs[rand(4)] + "-")
-        thread_pool.push(thread_bits_verbs[rand(4)] + "-")
-        thread_pool.push(thread_bits_nouns[rand(4)] + "-")
+        thread_bits = []
+        if pn.exist?
+            thread_bits = Threader.bits
+            thread_pool.push(Threader.bits_adjs[rand(Threader.bits_adjs.length)] + "-")
+            thread_pool.push(Threader.bits_verbs[rand(Threader.bits_verbs.length)] + "-")
+            thread_pool.push(Threader.bits_nouns[rand(Threader.bits_nouns.length)] + "-")
+        else
+            thread_bits = ("a".."z").to_a
+        end
+        
         6.times do
             do_fork = thread_fork[rand(thread_fork.length)]
             if do_fork == 0
@@ -83,6 +123,7 @@ class GitReaper
         end
         puts "Preparing to Reap on #{branch} branch."
         reaper = Thread.new do
+            
             while true
                 GitReaper.commit_loop(thread_pool.join(''))
             end
@@ -91,19 +132,23 @@ class GitReaper
         
         gets
         reaper.kill
-        puts "Summarize changes made:"
-        final_commit = gets.chomp
-        GitReaper.atomic(final_commit, thread_pool.join(''))
-        puts "Reaping #{@@commits} to pool on branch: #{branch}"
-        GitReaper.execute "git push -u origin #{branch}"
+        puts "How do you wish to exit?"
+        puts "'push': pushes all commits to branch\n'kill': wipes commits and exits program\n'reap': pushes all changes and ends the program"
+        exit_type = gets.chomp
+        GitReaper.exit(exit_type, thread_pool.join(''), branch)
+        
         
     end
 
     def self.start
+
+        @@pushes > 0 ? @@pushes += 1 : open('pull_me.txt', 'w') {|f| f.puts ""}; @@pushes += 1
         puts "Branch to push?"
         branch = gets.chomp
         GitReaper.threader(branch)
     end
+
+    
 
 end
 
