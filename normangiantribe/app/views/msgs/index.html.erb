@@ -1,5 +1,5 @@
 <% @msgs.each do |msg| %>
     <h3><%= msg.title %></h3>
     <p><%= msg.body %></p>
-    <small>Created by <%= link_to truncate(msg.user.username, length: 15), user_path(msg.user) %></small>
+    <small>Created by <%= link_to truncate(msg.user.username, length: 15) if msg.user, user_path(msg.user) %></small>
 <% end %>
