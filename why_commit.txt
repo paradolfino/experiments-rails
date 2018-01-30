@@ -94,3 +94,4 @@
 29/01/2018 19:26:pool[serene-living-cows-s25sx3]: implement validations for blogs - skills - and porfolio items
 29/01/2018 19:43:pool[lovely-baking-cabins-n82owb]: integrate database relationship between topics and blog posts
 29/01/2018 19:58:pool[serene-baking-cabins-510mx4]: add topic reference to blogs, add relationship between topics and blogs, add topic seed data, seed database
+29/01/2018 20:39:pool[serene-living-cows-s271en]: add msgs new view, add msgs edit view, add msgs new action, add msgs edit action, add update/create action, add destroy action, begin adding admin authorizations over all msgs
