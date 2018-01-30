@@ -8,3 +8,9 @@
 ### pool[lovely-baking-cabins-n82owb]:
 * integrate database relationship between topics and blog posts
 
+### pool[serene-baking-cabins-510mx4]:
+* add topic reference to blogs
+* add relationship between topics and blogs
+* add topic seed data
+* seed database
+
