@@ -39,8 +39,8 @@ class MsgsController < ApplicationController
 
     def destroy
         @msg.destroy
-        flash[:danger] = "Article was successfully deleted."
-        redirect_to articles_path
+        flash[:danger] = "Post was successfully deleted."
+        redirect_to msgs_path
     end
 
     private
