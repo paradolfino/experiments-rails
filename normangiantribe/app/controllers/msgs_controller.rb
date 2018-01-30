@@ -15,7 +15,12 @@ class MsgsController < ApplicationController
     end
 
     def update
-
+        if @msg.update(msg_params)
+            flash[:success] = "Post was successfully updated"
+            redirect_to msg_path(msg)
+        else
+            render 'edit'
+        end
     end
 
     private
