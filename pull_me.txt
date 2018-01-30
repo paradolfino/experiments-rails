@@ -1,1 +1,10 @@
 
+### pool[serene-living-cows-s271en]:
+* add msgs new view
+* add msgs edit view
+* add msgs new action
+* add msgs edit action
+* add update/create action
+* add destroy action
+* begin adding admin authorizations over all msgs
+
