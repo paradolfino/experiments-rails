@@ -5,8 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-arr = ("a".."zcr").to_a
-rand(25).times { |blog| Blog.create!(title: "My Blog #{blog}!", body: "#Test Content") }
+arr = ("a".."z").to_a
+rand(15).times {|topic| tar = []; rand(6).times {tar << arr[rand(arr.length)]}; Topic.create!(title: "#{tar.join("")} #{topic}")}
+rand(25).times { |blog| Blog.create!(title: "My Blog #{blog}!", body: "#Test Content", topic_id: Topic.last.id) }
 rand(5).times { |skill| Skill.create!(title: "My Skill #{skill}!", percent_utilized: rand(100)) }
 
 rand(9).times do |p|
@@ -15,6 +16,6 @@ rand(9).times do |p|
             subtitle: "Subtitle #{p}",
             body: "Body #{p} stuff!!!!",
             main_image: "http://via.placeholder.com/600x400",
-            thumb_image: "http://via.placeholder.com/350x200"
+            thumb_image: "http://via.placeholder.com/350x200",
         )
 end
