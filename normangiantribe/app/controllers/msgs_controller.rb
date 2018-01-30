@@ -42,7 +42,7 @@ class MsgsController < ApplicationController
             params.require(:msg).permit(:title, :body)
         end
         def set_msg
-            @msg = msg.find(params[:id])
+            @msg = Msg.find(params[:id])
         end
         def require_same_user
             if current_user != @msg.user and !current_user.admin?
