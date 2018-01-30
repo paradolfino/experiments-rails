@@ -16,6 +16,7 @@ rand(9).times do |p|
             subtitle: "Subtitle #{p}",
             body: "Body #{p} stuff!!!!",
             main_image: "http://via.placeholder.com/600x400",
-            thumb_image: "http://via.placeholder.com/350x200"
+            thumb_image: "http://via.placeholder.com/350x200",
+            topic_id: Topic.last.id
         )
 end
