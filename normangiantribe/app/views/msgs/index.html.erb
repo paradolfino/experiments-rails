@@ -4,4 +4,5 @@
     <% if msg.user %>
     <small>Created by <%= link_to truncate(msg.user.username, length: 15), user_path(msg.user) %></small>
     <% end %>
+    <% if logged_in? && (current_user == msg.user || current_user.admin? %>
 <% end %>
