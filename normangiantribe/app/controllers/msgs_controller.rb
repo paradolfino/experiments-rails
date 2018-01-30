@@ -15,7 +15,7 @@ class MsgsController < ApplicationController
     end
 
     def create
-        if @msg.create(msg_params)
+        if @msg.save
             flash[:success] = "Post was successfully updated"
             redirect_to msg_path(msg)
         else
