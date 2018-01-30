@@ -37,6 +37,10 @@ class MsgsController < ApplicationController
         end
     end
 
+    def destroy
+
+    end
+
     private
         def msg_params
             params.require(:msg).permit(:title, :body)
