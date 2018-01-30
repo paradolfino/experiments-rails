@@ -10,6 +10,14 @@ class MsgsController < ApplicationController
 
     end
 
+    def edit
+
+    end
+
+    def update
+
+    end
+
     private
         def msg_params
             params.require(:msg).permit(:title, :body)
