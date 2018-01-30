@@ -10,5 +10,6 @@ class PagesController < ApplicationController
 
   def noen
     @noen = params[:noen]
+    @nan = params[:nan]
   end
 end
