@@ -5,3 +5,6 @@
 ### pool[serene-living-cows-s25sx3]:
 * implement validations for blogs - skills - and porfolio items
 
+### pool[lovely-baking-cabins-n82owb]:
+* integrate database relationship between topics and blog posts
+
