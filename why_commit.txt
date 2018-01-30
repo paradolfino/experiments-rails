@@ -91,3 +91,4 @@
 27/01/2018 17:24:pool[serene-living-mountain-tkt53m]: add sentences controller, nest sentences with words json on request
 27/01/2018 17:52:pool[pretty-rolling-cow-z8p56e]: add columns for tenses to words model
 29/01/2018 19:13:pool[rapid-shining-rivers-018njk]: practice routing
+29/01/2018 19:26:pool[serene-living-cows-s25sx3]: implement validations for blogs - skills - and porfolio items

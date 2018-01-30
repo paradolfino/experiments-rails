@@ -2,3 +2,6 @@
 ### pool[rapid-shining-rivers-018njk]:
 * practice routing
 
+### pool[serene-living-cows-s25sx3]:
+* implement validations for blogs - skills - and porfolio items
+
