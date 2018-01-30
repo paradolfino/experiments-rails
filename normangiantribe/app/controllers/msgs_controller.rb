@@ -11,7 +11,7 @@ class MsgsController < ApplicationController
     end
 
     def new
-
+        @msg = Msg.new
     end
 
     def create
