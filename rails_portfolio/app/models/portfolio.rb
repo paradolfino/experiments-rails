@@ -11,4 +11,11 @@ class Portfolio < ApplicationRecord
     end
 
     scope :subwoofer, -> { where(subtitle: "Subwoofer") } #lambda scope
+
+    after_initialize :set_defaults
+
+    def :set_defaults
+
+    end
+
 end
