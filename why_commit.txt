@@ -96,3 +96,4 @@
 29/01/2018 19:58:pool[serene-baking-cabins-510mx4]: add topic reference to blogs, add relationship between topics and blogs, add topic seed data, seed database
 29/01/2018 20:39:pool[serene-living-cows-s271en]: add msgs new view, add msgs edit view, add msgs new action, add msgs edit action, add update/create action, add destroy action, begin adding admin authorizations over all msgs
 30/01/2018 19:22:pool[lovely-flying-cabins-1761u6]: implement custom scopes
+30/01/2018 19:37:pool[brilliant-shining-cows-86z0rr]: implement image defaults for portfolio items

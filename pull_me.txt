@@ -2,3 +2,6 @@
 ### pool[lovely-flying-cabins-1761u6]:
 * implement custom scopes
 
+### pool[brilliant-shining-cows-86z0rr]:
+* implement image defaults for portfolio items
+
