@@ -1,7 +1,7 @@
 class PortfoliosController < ApplicationController
     before_action :set_portfolios, only: [:show, :edit, :update, :destroy]
     def index
-        @portfolios = Portfolio.where(subtitle: "Subwoofer")
+        @portfolios = Portfolio.subwoofer #Portfolio.where(subtitle: "Subwoofer")
     end
 
     def show; end
