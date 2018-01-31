@@ -5,3 +5,6 @@
 ### pool[brilliant-shining-cows-86z0rr]:
 * implement image defaults for portfolio items
 
+### pool[peaceful-living-horses-a03v0e]:
+* implement concert for managing image data
+
