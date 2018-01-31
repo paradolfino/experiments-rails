@@ -3,5 +3,6 @@
     <% if logged_in? %>
         <%= link_to "Logga Ut", logout_path %> | <%= link_to "View Profile", user_path(current_user)%>
     <% else %>
+        <%= link_to "Logga I", login_path %> | <%= link_to "Join", join_path %>
     <% end %>
 </footer>
