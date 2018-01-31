@@ -9,4 +9,6 @@ class Portfolio < ApplicationRecord
     def self.subwoofer
         where(subtitle: "Subwoofer")
     end
+
+    scope :subwoofer, -> { where(subtitle: "Subwoofer") }
 end
