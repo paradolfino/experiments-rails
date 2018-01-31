@@ -1,1 +1,7 @@
 
+### pool[peaceful-flying-cows-5bxqqv]:
+* add footer partial to layouts
+* add login/logut functionality
+* add temp join functionality
+* fix logout destroy session issue
+
