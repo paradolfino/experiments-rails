@@ -5,6 +5,10 @@ class PortfoliosController < ApplicationController
         #@portfolios = Portfolio.subwoofer #Portfolio.where(subtitle: "Subwoofer")
     end
 
+    def subwoofer
+        @portfolios = Portfolio.subwoofer
+    end
+
     def show; end
 
     def new
