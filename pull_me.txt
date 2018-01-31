@@ -1,10 +1,8 @@
 
-### pool[lovely-flying-cabins-1761u6]:
-* implement custom scopes
+### pool[rapid-rolling-horses-kx8dgo]:
+* add pagination to categories view and controller
 
-### pool[brilliant-shining-cows-86z0rr]:
-* implement image defaults for portfolio items
-
-### pool[peaceful-living-horses-a03v0e]:
-* implement concert for managing image data
+### pool[peaceful-flying-villages-r3zw1n]:
+* add tests for admin user sign in
+* restrict categories new to admin
 

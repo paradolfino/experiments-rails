@@ -52,7 +52,7 @@ li a {
     margin-top: -10px;
 }
 
-.article-title {
+.article-title, .topic-title {
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -77,6 +77,10 @@ li a {
     font-weight: bold;
     font-size: 1.5em;
     float: right;
+}
+
+.topic-title a {
+    color: black !important;
 }
 
 .footer {
