@@ -1,8 +1,7 @@
 
-### pool[rapid-rolling-horses-kx8dgo]:
-* add pagination to categories view and controller
-
-### pool[peaceful-flying-villages-r3zw1n]:
-* add tests for admin user sign in
-* restrict categories new to admin
+### pool[peaceful-flying-cows-5bxqqv]:
+* add footer partial to layouts
+* add login/logut functionality
+* add temp join functionality
+* fix logout destroy session issue
 
