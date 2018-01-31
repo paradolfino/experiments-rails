@@ -4,10 +4,11 @@ Rails.application.routes.draw do
   get 'about', to: 'main#about'
   resources :posts
   resources :msgs
+  resources :users, except: [:new]
   get 'join', to: 'users#new'
   post 'users', to: 'users#create'
   get 'login', to: 'sessions#new'
-  resources :users, except: [:new]
+  
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
 end
