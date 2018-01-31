@@ -2,6 +2,11 @@ class PortfoliosController < ApplicationController
     before_action :set_portfolios, only: [:show, :edit, :update, :destroy]
     def index
         @portfolios = Portfolio.all
+        #@portfolios = Portfolio.subwoofer #Portfolio.where(subtitle: "Subwoofer")
+    end
+
+    def subwoofer
+        @portfolios = Portfolio.subwoofer
     end
 
     def show; end
