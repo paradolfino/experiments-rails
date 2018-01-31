@@ -99,3 +99,4 @@
 30/01/2018 19:37:pool[brilliant-shining-cows-86z0rr]: implement image defaults for portfolio items
 30/01/2018 19:56:pool[peaceful-living-horses-a03v0e]: implement concert for managing image data
 30/01/2018 20:14:pool[rapid-rolling-horses-kx8dgo]: add pagination to categories view and controller
+30/01/2018 20:30:pool[peaceful-flying-villages-r3zw1n]: add tests for admin user sign in, restrict categories new to admin
