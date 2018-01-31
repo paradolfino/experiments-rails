@@ -1,7 +1,7 @@
 <footer>
     <hr>
     <% if logged_in? %>
-    <%= link_to (logged_in? ? "Logout" : "Login"), login_path %> |
+    <%= link_to "Logga Ut", logout_path %> |
     <% else %>
     <% end %>
 </footer>
