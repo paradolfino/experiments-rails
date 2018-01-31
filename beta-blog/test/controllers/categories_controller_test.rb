@@ -21,4 +21,10 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
         assert_response :success
     end
 
+    test "should redirect create when admin not logged in" do
+
+    end
+
+
+
 end
