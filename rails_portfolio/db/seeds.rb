@@ -10,10 +10,11 @@ rand(15).times {|topic| tar = []; rand(6).times {tar << arr[rand(arr.length)]}; 
 rand(25).times { |blog| Blog.create!(title: "My Blog #{blog}!", body: "#Test Content", topic_id: Topic.last.id) }
 rand(5).times { |skill| Skill.create!(title: "My Skill #{skill}!", percent_utilized: rand(100)) }
 
-rand(9).times do |p|
+ports = rand(9)
+ports.times do |p|
     Portfolio.create!(
             title: "Title #{p}",
-            subtitle: p < 7 ? "Subtitle #{p}": "Subwoofer",
+            subtitle: p < 8 ? "Subtitle #{p}": "Subwoofer",
             body: "Body #{p} stuff!!!!",
             main_image: "http://via.placeholder.com/600x400",
             thumb_image: "http://via.placeholder.com/350x200",
