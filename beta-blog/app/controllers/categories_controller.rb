@@ -27,7 +27,7 @@ class CategoriesController < ApplicationController
             params.require(:category).permit(:name)
         end
         def require_admin
-            if logged_in? and !current_user.admin?
+            if !logged_in? || (logged_in? and !current_user.admin?)
                 flash[:danger] = "You need elevated permissions to do that!"
                 redirect_to categories_path
             end
