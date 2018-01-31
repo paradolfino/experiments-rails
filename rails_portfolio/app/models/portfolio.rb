@@ -1,4 +1,5 @@
 class Portfolio < ApplicationRecord
+    includes Placeholder
     validates :title, presence: true, length: { minimum: 3, maximum: 50 }
     validates :body, presence: true, length: { minimum: 3, maximum: 500 }
     validates_presence_of :main_image, :thumb_image
