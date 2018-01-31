@@ -14,7 +14,7 @@ ports = rand(9)
 ports.times do |p|
     Portfolio.create!(
             title: "Title #{p}",
-            subtitle: p < 8 ? "Subtitle #{p}": "Subwoofer",
+            subtitle: p < ports - 1 ? "Subtitle #{p}": "Subwoofer",
             body: "Body #{p} stuff!!!!",
             main_image: "http://via.placeholder.com/600x400",
             thumb_image: "http://via.placeholder.com/350x200",
