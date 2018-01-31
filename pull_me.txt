@@ -1,1 +1,4 @@
 
+### pool[rapid-rolling-horses-kx8dgo]:
+* add pagination to categories view and controller
+
