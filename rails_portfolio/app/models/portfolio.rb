@@ -10,5 +10,5 @@ class Portfolio < ApplicationRecord
         where(subtitle: "Subwoofer")
     end
 
-    scope :subwoofer, -> { where(subtitle: "Subwoofer") }
+    scope :subwoofer, -> { where(subtitle: "Subwoofer") } #lambda scope
 end
