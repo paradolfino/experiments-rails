@@ -101,3 +101,4 @@
 30/01/2018 20:14:pool[rapid-rolling-horses-kx8dgo]: add pagination to categories view and controller
 30/01/2018 20:30:pool[peaceful-flying-villages-r3zw1n]: add tests for admin user sign in, restrict categories new to admin
 30/01/2018 21:02:pool[peaceful-flying-cows-5bxqqv]: add footer partial to layouts, add login/logut functionality, add temp join functionality, fix logout destroy session issue
+31/01/2018 19:35:pool[lovely-jumping-rivers-bm3h00]: implement technology model, reference technologies to portfolio, add technologies seed data

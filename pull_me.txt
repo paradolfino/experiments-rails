@@ -1,1 +1,6 @@
 
+### pool[lovely-jumping-rivers-bm3h00]:
+* implement technology model
+* reference technologies to portfolio
+* add technologies seed data
+
