@@ -21,4 +21,4 @@ ports.times do |p|
         )
 end
 
-3.times { |tech| Technology.create!(name: "Technology #{tech}", portfolio_id: Portfolio.last.id) }
+3.times { |tech| Portfolio.last.technologies.create!(name: "Technology #{tech}") }
