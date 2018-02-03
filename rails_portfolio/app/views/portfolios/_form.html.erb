@@ -10,7 +10,9 @@
         <%= f.label :body %><br />
         <%= f.text_area :body, rows: 10, placeholder: "Body of portfolio" %><br />
         <ul>
-
+            <%= f.fields_for :technologies do |tech| %>
+                <li></li>
+            <% end %>
         </ul>
         <%= f.submit %> <%= link_to "Back to All Portfolios", portfolios_path %><br />
         
