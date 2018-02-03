@@ -13,12 +13,14 @@ class PortfoliosController < ApplicationController
 
     def new
         @portfolio = Portfolio.new
+        2.times { @portfolio.technologies.build }
     end
 
     def create
         @portfolio = Portfolio.new(params_portfolio)
         if @portfolio.save
             flash[:success] = "Portfolio Item was successfully created"
+            puts @portfolio
             redirect_to portfolios_path
         else
             render 'new'
@@ -49,6 +51,6 @@ class PortfoliosController < ApplicationController
             @portfolio = Portfolio.friendly.find(params[:id])
         end
         def params_portfolio
-            params.require(:portfolio).permit(:title, :subtitle, :body)
+            params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes: [:name])
         end
 end
