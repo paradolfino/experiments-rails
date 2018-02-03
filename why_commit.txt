@@ -62,3 +62,43 @@
 19/01/2018 20:39:pool[pretty-steaming-mountain-gw4432]: practice with rails controller generation
 20/01/2018 17:25:pool[serene-living-rabbit-g88zar]: add portfolio resources
 
+20/01/2018 18:00:pool[serene-living-rabbit-ub01cy]: practice with generator customization
+20/01/2018 19:25:pool[brilliant-rolling-mountain-562s03]: add signin upon signup, fix require_user error by adding :new and :create to before_action
+20/01/2018 19:59:pool[rapid-living-rabbit-0aby27]: add admin user functionality to destroy users - articles - user/articles
+20/01/2018 21:05:pool[rapid-shining-rabbit-lnk03g]: add sessions controller, add login form, add authentication methods to application controller, add authentication methods to msgs - users - posts controllers, add restrictions to ui based on logged_in?
+22/01/2018 19:19:pool[brilliant-steaming-cow-q32u2x]: create seed file for sample data
+22/01/2018 19:32:pool[rapid-shining-river-33t526]: add index action to portfolios controller, add basic erb output - including image_tag to portfolios index view
+22/01/2018 20:02:pool[rapid-shining-river-2th80k]: add category_test to test models, add CategoryTest class with setup method and test skeleton method
+23/01/2018 19:24:pool[rapid-rolling-mountain-k8b61z]: integrate new - create - show - edit - update actions to portfolios controller, add before_action set_portfolios private method, add params_portfolio private method to controller, add portfolios new view, add show view, add messages partial to views\layouts
+23/01/2018 19:49:pool[pretty-steaming-rabbit-o3u1iu]: fix update action in portfolios controller, add link_to from show to index and from index to edit
+23/01/2018 20:02:pool[serene-steaming-cow-3w74io]: add link_to from index to show view, add erb to show view with image_tag and link_to to index view
+23/01/2018 20:18:pool[serene-shining-mountain-4wdt1v]: add tests for presence - uniqueness - length - shortness of category.name
+24/01/2018 19:19:pool[rapid-shining-rabbit-k50i0q]: implement destroy action for portfolios controller
+24/01/2018 19:35:pool[brilliant-steaming-river-n865f1]: customize portfolio routes
+24/01/2018 19:54:pool[brilliant-living-cow-j132d7]: begin implement of friendly_id gem
+24/01/2018 20:12:pool[rapid-shining-mountain-5u7280]: implement category tests at controller lever, add categories controller, add show - new - index views for categories controller, add show - new - index actions for categories controller
+24/01/2018 20:37:pool[serene-steaming-rabbit-23s1nv]: implement full create category test, add categories form partial, add params_category private method to controller, add if save block to controller, run tests - 2 failures - 0 errors
+24/01/2018 20:46:pool[rapid-rolling-river-h73dkb]: implement test for invalid category
+24/01/2018 20:52:pool[brilliant-living-cow-cd0ifi]: implement list categories test
+24/01/2018 20:58:pool[serene-rolling-mountain-7r3jq5]: add admin user column, add require_same_user to msgs controller and check for admin
+25/01/2018 19:27:pool[rapid-steaming-river-3038l1]: implement friendly_id gem, update status for enum
+25/01/2018 20:02:pool[pretty-living-rabbit-irae4y]: implement custom action toggle status
+25/01/2018 20:12:pool[pretty-steaming-river-0ffzl4]: implement friendly_id with portfolio model, implement enum status with portfolio model, update all portfolios entries to reflect slug and status
+25/01/2018 21:01:pool[pretty-shining-rabbit-7l1tz6]: general practice with constructing routes from scratch
+27/01/2018 10:19:pool[serene-rolling-cow-72f1kl]: generate project, set up gem groups for dev and prod, add word model, add sentence model with reference to word
+27/01/2018 11:29:pool[rapid-shining-rabbit-jcyidg]: integrate validations for models, integrate relationships between models, integrate model testing with rspec
+27/01/2018 13:47:pool[rapid-rolling-rabbit-pp47h1]: create words controller, test api with jquery: success
+27/01/2018 17:24:pool[serene-living-mountain-tkt53m]: add sentences controller, nest sentences with words json on request
+27/01/2018 17:52:pool[pretty-rolling-cow-z8p56e]: add columns for tenses to words model
+29/01/2018 19:13:pool[rapid-shining-rivers-018njk]: practice routing
+29/01/2018 19:26:pool[serene-living-cows-s25sx3]: implement validations for blogs - skills - and porfolio items
+29/01/2018 19:43:pool[lovely-baking-cabins-n82owb]: integrate database relationship between topics and blog posts
+29/01/2018 19:58:pool[serene-baking-cabins-510mx4]: add topic reference to blogs, add relationship between topics and blogs, add topic seed data, seed database
+29/01/2018 20:39:pool[serene-living-cows-s271en]: add msgs new view, add msgs edit view, add msgs new action, add msgs edit action, add update/create action, add destroy action, begin adding admin authorizations over all msgs
+30/01/2018 19:22:pool[lovely-flying-cabins-1761u6]: implement custom scopes
+30/01/2018 19:37:pool[brilliant-shining-cows-86z0rr]: implement image defaults for portfolio items
+30/01/2018 19:56:pool[peaceful-living-horses-a03v0e]: implement concert for managing image data
+30/01/2018 20:14:pool[rapid-rolling-horses-kx8dgo]: add pagination to categories view and controller
+30/01/2018 20:30:pool[peaceful-flying-villages-r3zw1n]: add tests for admin user sign in, restrict categories new to admin
+30/01/2018 21:02:pool[peaceful-flying-cows-5bxqqv]: add footer partial to layouts, add login/logut functionality, add temp join functionality, fix logout destroy session issue
+31/01/2018 19:35:pool[lovely-jumping-rivers-bm3h00]: implement technology model, reference technologies to portfolio, add technologies seed data

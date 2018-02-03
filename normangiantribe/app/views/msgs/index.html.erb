@@ -1,5 +1,10 @@
 <% @msgs.each do |msg| %>
     <h3><%= msg.title %></h3>
     <p><%= msg.body %></p>
+    <% if msg.user %>
     <small>Created by <%= link_to truncate(msg.user.username, length: 15), user_path(msg.user) %></small>
+    <% end %>
+    <% if logged_in? && (current_user == msg.user || current_user.admin?) %>
+    <small>[<%= link_to "Äditter", edit_msg_path(msg) %>] [<%= link_to "Destrågoer", msg_path(msg), method: :delete %>]</small>
+    <% end %>
 <% end %>

@@ -15,6 +15,10 @@ class SessionsController < ApplicationController
         end
     end
 
+    def delete
+
+    end
+
     def destroy
         session[:user_id] = nil
         flash.now[:success] = 'Logged out!'
