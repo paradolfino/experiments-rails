@@ -3,6 +3,6 @@
 <p><%= @portfolio.body %></p>
 <%= image_tag @portfolio.main_image if @portfolio.main_image %><br />
 <%= link_to "Back to All Portfolios", portfolios_path %><br />
-<%= @portfolio.technologies.each do |tech| %>
-    s
+<% @portfolio.technologies.each do |tech| %>
+    <%= tech.name %>
 <% end %>
