@@ -1,6 +1,6 @@
 class Portfolio < ApplicationRecord
     has_many :technologies
-    accepts_nested_attributes_for :technologies
+    accepts_nested_attributes_for :technologies, reject_if: lambda
     include Placeholder
     validates :title, presence: true, length: { minimum: 3, maximum: 50 }
     validates :body, presence: true, length: { minimum: 3, maximum: 500 }
