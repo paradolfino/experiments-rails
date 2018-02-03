@@ -12,7 +12,7 @@
         <ul>
             <%= f.fields_for :technologies do |tech| %>
                 <li><%= tech.label :name %></li>
-                <li><%= tech.name %></li>
+                <li><%= tech.text_field :name %></li>
             <% end %>
         </ul>
         <%= f.submit %> <%= link_to "Back to All Portfolios", portfolios_path %><br />
