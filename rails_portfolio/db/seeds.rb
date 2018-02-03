@@ -20,3 +20,5 @@ ports.times do |p|
             thumb_image: "http://via.placeholder.com/350x200",
         )
 end
+
+3.times { |tech| Portfolio.last.technologies.create!(name: "Technology #{tech}") }

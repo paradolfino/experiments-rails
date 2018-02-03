@@ -1,7 +1,6 @@
 
-### pool[peaceful-flying-cows-5bxqqv]:
-* add footer partial to layouts
-* add login/logut functionality
-* add temp join functionality
-* fix logout destroy session issue
+### pool[lovely-jumping-rivers-bm3h00]:
+* implement technology model
+* reference technologies to portfolio
+* add technologies seed data
 
