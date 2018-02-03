@@ -20,6 +20,7 @@ class PortfoliosController < ApplicationController
         @portfolio = Portfolio.new(params_portfolio)
         if @portfolio.save
             flash[:success] = "Portfolio Item was successfully created"
+            puts @portfolio
             redirect_to portfolios_path
         else
             render 'new'
