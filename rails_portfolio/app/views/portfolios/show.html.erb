@@ -4,5 +4,5 @@
 <%= image_tag @portfolio.main_image if @portfolio.main_image %><br />
 <%= link_to "Back to All Portfolios", portfolios_path %><br />
 <%= if @portfolio.technologies then @portfolio.technologies.each do |tech| %>
-
+    
 <% end %>
