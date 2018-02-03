@@ -50,6 +50,6 @@ class PortfoliosController < ApplicationController
             @portfolio = Portfolio.friendly.find(params[:id])
         end
         def params_portfolio
-            params.require(:portfolio).permit(:title, :subtitle, :body)
+            params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes: [:name])
         end
 end
