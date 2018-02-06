@@ -1,1 +1,4 @@
 
+### pool[happy-jumping-mountains-m243hg]:
+* begin deep dive into sql and active record
+

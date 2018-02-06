@@ -103,3 +103,4 @@
 30/01/2018 21:02:pool[peaceful-flying-cows-5bxqqv]: add footer partial to layouts, add login/logut functionality, add temp join functionality, fix logout destroy session issue
 31/01/2018 19:35:pool[lovely-jumping-rivers-bm3h00]: implement technology model, reference technologies to portfolio, add technologies seed data
 03/02/2018 10:02:pool[happy-living-horses-wt0eof]: begin implement nested attributes for technologies, add ability to add attributes on form partial, add basic visual output of attributes on portfolio show view
+05/02/2018 19:26:pool[happy-jumping-mountains-m243hg]: begin deep dive into sql and active record
