@@ -18,6 +18,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
     end
 
     test "invalid category submission result in fail" do
+        sign_in_as(@user, "password")
         get new_category_path
         assert_template 'categories/new'
         assert_no_difference 'Category.count' do
