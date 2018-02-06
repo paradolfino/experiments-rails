@@ -1,6 +1,1 @@
 
-### pool[happy-living-horses-wt0eof]:
-* begin implement nested attributes for technologies
-* add ability to add attributes on form partial
-* add basic visual output of attributes on portfolio show view
-
