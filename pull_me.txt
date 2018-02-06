@@ -1,6 +1,7 @@
 
-### pool[happy-living-horses-wt0eof]:
-* begin implement nested attributes for technologies
-* add ability to add attributes on form partial
-* add basic visual output of attributes on portfolio show view
+### pool[happy-jumping-mountains-m243hg]:
+* begin deep dive into sql and active record
+
+### pool[lovely-running-cabins-6h4im4]:
+* implement tests for logging in admin user
 

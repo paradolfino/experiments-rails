@@ -26,6 +26,16 @@
               <li class="dropdown-item"><%= link_to "Sign Up", signup_path %></li>
             <% end %>
           </ul>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <% if logged_in? %>
+              <li class="dropdown-item"><%= link_to "New Article", new_article_path %></li>
+              <li class="dropdown-item"><%= link_to "View Profile", user_path(current_user)  %></li>
+              <li class="dropdown-item"><%= link_to "Edit Profile", edit_user_path(current_user) %></li>
+            <% else %>
+              <li class="dropdown-item"><%= link_to "Sign Up", signup_path %></li>
+            <% end %>
+          </ul>
         </li>
       </ul>
       <form class="navbar-form navbar-right">
