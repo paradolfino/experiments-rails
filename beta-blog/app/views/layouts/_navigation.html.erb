@@ -25,6 +25,13 @@
             <% else %>
               <li class="dropdown-item"><%= link_to "Sign Up", signup_path %></li>
             <% end %>
+            <ul class="dropdown-menu">
+            <% if logged_in? %>
+              <li class="dropdown-item"><%= link_to "New Category", new_article_path %></li>
+              <li class="dropdown-item"><%= link_to "View Categories", user_path(current_user)  %></li>
+            <% else %>
+              <li class="dropdown-item"><%= link_to "Sign Up", signup_path %></li>
+            <% end %>
           </ul>
         </li>
       </ul>
