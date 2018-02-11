@@ -1,7 +1,1 @@
 
-### pool[happy-jumping-mountains-m243hg]:
-* begin deep dive into sql and active record
-
-### pool[lovely-running-cabins-6h4im4]:
-* implement tests for logging in admin user
-
