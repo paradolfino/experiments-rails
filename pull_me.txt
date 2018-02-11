@@ -2,3 +2,9 @@
 ### pool[rapid-running-cabins-y0q7v0]:
 * install devise
 
+### pool[pretty-running-cabins-t04a7o]:
+* install devise
+* add custom fields
+* generate devise views
+* generate user model
+
