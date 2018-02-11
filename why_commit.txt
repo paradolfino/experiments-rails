@@ -105,3 +105,5 @@
 03/02/2018 10:02:pool[happy-living-horses-wt0eof]: begin implement nested attributes for technologies, add ability to add attributes on form partial, add basic visual output of attributes on portfolio show view
 05/02/2018 19:26:pool[happy-jumping-mountains-m243hg]: begin deep dive into sql and active record
 05/02/2018 19:47:pool[lovely-running-cabins-6h4im4]: implement tests for logging in admin user
+10/02/2018 18:09:pool[rapid-running-cabins-y0q7v0]: install devise
+10/02/2018 18:30:pool[pretty-running-cabins-t04a7o]: install devise, add custom fields, generate devise views, generate user model

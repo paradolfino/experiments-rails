@@ -1,7 +1,10 @@
 
-### pool[happy-jumping-mountains-m243hg]:
-* begin deep dive into sql and active record
+### pool[rapid-running-cabins-y0q7v0]:
+* install devise
 
-### pool[lovely-running-cabins-6h4im4]:
-* implement tests for logging in admin user
+### pool[pretty-running-cabins-t04a7o]:
+* install devise
+* add custom fields
+* generate devise views
+* generate user model
 
