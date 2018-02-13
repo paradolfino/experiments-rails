@@ -107,3 +107,6 @@
 05/02/2018 19:47:pool[lovely-running-cabins-6h4im4]: implement tests for logging in admin user
 10/02/2018 18:09:pool[rapid-running-cabins-y0q7v0]: install devise
 10/02/2018 18:30:pool[pretty-running-cabins-t04a7o]: install devise, add custom fields, generate devise views, generate user model
+12/02/2018 19:05:pool[brilliant-baking-mountains-o1p0k2]: customize registration login - logout routes
+12/02/2018 19:14:pool[rapid-flying-cows-m04b48]: implement logout functionality, implement dynamic view rendering for auth
+12/02/2018 19:30:pool[peaceful-baking-horses-lo64tf]: implement devise parameter whitelisting at app controller level

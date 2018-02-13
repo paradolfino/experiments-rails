@@ -1,10 +1,11 @@
 
-### pool[rapid-running-cabins-y0q7v0]:
-* install devise
+### pool[brilliant-baking-mountains-o1p0k2]:
+* customize registration login - logout routes
 
-### pool[pretty-running-cabins-t04a7o]:
-* install devise
-* add custom fields
-* generate devise views
-* generate user model
+### pool[rapid-flying-cows-m04b48]:
+* implement logout functionality
+* implement dynamic view rendering for auth
+
+### pool[peaceful-baking-horses-lo64tf]:
+* implement devise parameter whitelisting at app controller level
 
