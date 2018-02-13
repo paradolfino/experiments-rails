@@ -2,3 +2,7 @@
 ### pool[brilliant-baking-mountains-o1p0k2]:
 * customize registration login - logout routes
 
+### pool[rapid-flying-cows-m04b48]:
+* implement logout functionality
+* implement dynamic view rendering for auth
+
