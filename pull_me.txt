@@ -6,3 +6,6 @@
 * implement logout functionality
 * implement dynamic view rendering for auth
 
+### pool[peaceful-baking-horses-lo64tf]:
+* implement devise parameter whitelisting at app controller level
+
