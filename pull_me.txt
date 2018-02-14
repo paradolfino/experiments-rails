@@ -1,1 +1,4 @@
 
+### pool[lovely-flying-cows-20f6k3]:
+* add controller concerns for devise params
+
