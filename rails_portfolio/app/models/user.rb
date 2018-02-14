@@ -4,11 +4,11 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-         def first_name
+         def first_initial
 
          end
 
-         def last_name
+         def last_initial
 
          end
 end
