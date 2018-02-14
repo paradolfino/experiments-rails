@@ -2,3 +2,6 @@
 ### pool[lovely-flying-cows-20f6k3]:
 * add controller concerns for devise params
 
+### pool[happy-rolling-hills-rb076c]:
+* implement custom attribute methods for first and last initials in User model
+
