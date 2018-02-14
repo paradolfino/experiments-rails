@@ -110,3 +110,5 @@
 12/02/2018 19:05:pool[brilliant-baking-mountains-o1p0k2]: customize registration login - logout routes
 12/02/2018 19:14:pool[rapid-flying-cows-m04b48]: implement logout functionality, implement dynamic view rendering for auth
 12/02/2018 19:30:pool[peaceful-baking-horses-lo64tf]: implement devise parameter whitelisting at app controller level
+13/02/2018 19:08:pool[lovely-flying-cows-20f6k3]: add controller concerns for devise params
+13/02/2018 19:28:pool[happy-rolling-hills-rb076c]: implement custom attribute methods for first and last initials in User model
