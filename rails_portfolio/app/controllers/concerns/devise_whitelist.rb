@@ -1,3 +1,3 @@
 module DeviseWhitelist
-    extemd ActoveSupport::Concern
+    extend ActoveSupport::Concern
 end
