@@ -113,3 +113,4 @@
 13/02/2018 19:08:pool[lovely-flying-cows-20f6k3]: add controller concerns for devise params
 13/02/2018 19:28:pool[happy-rolling-hills-rb076c]: implement custom attribute methods for first and last initials in User model
 14/02/2018 20:09:pool[brilliant-living-horses-86pug1]: complete authentication with virtual attributes
+14/02/2018 20:13:pool[lovely-rolling-villages-ss6735]: complete authentication for user model
