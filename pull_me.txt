@@ -1,1 +1,4 @@
 
+### pool[brilliant-living-horses-86pug1]:
+* complete authentication with virtual attributes
+
