@@ -1,7 +1,4 @@
 
-### pool[brilliant-living-horses-86pug1]:
-* complete authentication with virtual attributes
-
-### pool[lovely-rolling-villages-ss6735]:
-* complete authentication for user model
+### pool[pretty-shining-mountains-ycs03a]:
+* begin work with sessions
 
