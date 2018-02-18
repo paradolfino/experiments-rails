@@ -5,7 +5,8 @@ class ApplicationController < ActionController::Base
   include SetSource
 
   def current_user
-    super #exact same behavior of parent current_user
+    # super #exact same behavior of parent current_user
+
   end
   
 end
