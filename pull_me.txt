@@ -1,4 +1,1 @@
 
-### pool[lovely-rolling-mountains-2r01bu]:
-* add session tracker for params :q and session[:source]
-
