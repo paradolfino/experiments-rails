@@ -4,4 +4,7 @@ class Phrase < ApplicationRecord
     validates :english,
     presence: true,
     length: { minimum: 3, maximum: 150 }
+    validates :normansk,
+    presence: true,
+    length: { minimum: 3, maximum: 150 }
 end
