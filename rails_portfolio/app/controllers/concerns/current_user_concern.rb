@@ -6,6 +6,9 @@ module CurrentUserConcern
     end
 
     def guest_user
-        OpenStruct.new(first_name: "Guest", last_name: "Guest", email: "guest@guest.com")
+        OpenStruct.new(
+            first_name: "Guest", 
+            last_name: "Guest", 
+            email: "guest@guest.com")
     end
 end
