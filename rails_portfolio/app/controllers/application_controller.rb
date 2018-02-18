@@ -3,10 +3,7 @@ class ApplicationController < ActionController::Base
 
   include DeviseWhitelist
   include SetSource
-
-  def current_user
-    # super #exact same behavior of parent current_user
-    super || OpenStruct.new(first_name: "Guest", last_name: "Guest", email: "guest@guest.com")
-  end
+  include CurrentUserConcern
+  
   
 end
