@@ -115,3 +115,4 @@
 14/02/2018 20:09:pool[brilliant-living-horses-86pug1]: complete authentication with virtual attributes
 14/02/2018 20:13:pool[lovely-rolling-villages-ss6735]: complete authentication for user model
 15/02/2018 20:29:pool[pretty-shining-mountains-ycs03a]: begin work with sessions
+18/02/2018 11:58:pool[rapid-shining-cabins-62t11z]: generate new api project, create word model, create phrase model

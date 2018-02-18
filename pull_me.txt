@@ -1,4 +1,6 @@
 
-### pool[pretty-shining-mountains-ycs03a]:
-* begin work with sessions
+### pool[rapid-shining-cabins-62t11z]:
+* generate new api project
+* create word model
+* create phrase model
 
