@@ -1,4 +1,1 @@
 
-### pool[pretty-shining-mountains-ycs03a]:
-* begin work with sessions
-
