@@ -1,7 +1,7 @@
 class Phrase < ApplicationRecord
     belongs_to :word
 
-    validates :entry,
+    validates :english,
     presence: true,
     length: { minimum: 3, maximum: 150 }
 end
