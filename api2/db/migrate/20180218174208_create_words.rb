@@ -7,7 +7,9 @@ class CreateWords < ActiveRecord::Migration[5.1]
       t.string :nor_pl
       t.string :nor_def
       t.string :nor_defpl
-      
+      t.string :nor_past
+      t.string :nor_pres
+      t.string :nor_fut
       t.timestamps
     end
   end
