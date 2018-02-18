@@ -5,3 +5,6 @@
 ### pool[lovely-shining-cows-o6c826]:
 * refactor strong params for portfolios
 
+### pool[happy-jumping-villages-3ntizm]:
+* add guest user for current user
+
