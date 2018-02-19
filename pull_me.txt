@@ -1,10 +1,1 @@
 
-### pool[serene-shining-rabbits-7183dx]:
-* refactor set_source as a concern instead of as part of application controller
-
-### pool[lovely-shining-cows-o6c826]:
-* refactor strong params for portfolios
-
-### pool[happy-jumping-villages-3ntizm]:
-* add guest user for current user
-
