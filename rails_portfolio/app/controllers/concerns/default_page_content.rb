@@ -3,10 +3,10 @@ module DefaultPageContent
 
 
     included do
-        before_action :set_title
+        before_action :set_defaults
     end
   
-    def set_title
+    def set_defaults
         @page_title =  "Pagey Title"
     end
 end
