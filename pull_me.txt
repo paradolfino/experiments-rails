@@ -1,4 +1,4 @@
 
-### pool[lovely-jumping-hills-5c7l8l]:
-* generate test project whiteboard for creating a future scrum board app
+### pool[serene-shining-cabins-t6us3a]:
+* begin refactoring of application layout
 
