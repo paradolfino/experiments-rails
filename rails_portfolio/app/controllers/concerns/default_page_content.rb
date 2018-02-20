@@ -1,0 +1,3 @@
+module DefaultPageContent
+
+end
