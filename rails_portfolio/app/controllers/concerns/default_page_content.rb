@@ -8,5 +8,7 @@ module DefaultPageContent
   
     def set_defaults
         @page_title =  "Pagey Title"
+
+        @seo_keywords = "Viktharien Volander"
     end
 end
