@@ -1,4 +1,1 @@
 
-### pool[rapid-running-horses-y53b41]:
-* add custom layout for blog and portfolio
-
