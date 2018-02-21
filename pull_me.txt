@@ -1,1 +1,4 @@
 
+### pool[peaceful-jumping-villages-vjn5l3]:
+* implement partial for nav component
+
