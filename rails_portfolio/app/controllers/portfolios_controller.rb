@@ -1,5 +1,6 @@
 class PortfoliosController < ApplicationController
     before_action :set_portfolios, only: [:show, :edit, :update, :destroy]
+    layout 'portfolio'
     def index
         @portfolios = Portfolio.all
         @page_title = "Blog"

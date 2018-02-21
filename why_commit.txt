@@ -122,3 +122,6 @@
 18/02/2018 15:49:pool[happy-jumping-villages-3ntizm]: add guest user for current user
 18/02/2018 19:03:pool[lovely-jumping-hills-5c7l8l]: generate test project whiteboard for creating a future scrum board app
 19/02/2018 19:58:pool[serene-shining-cabins-t6us3a]: begin refactoring of application layout
+20/02/2018 20:20:pool[rapid-running-horses-y53b41]: add custom layout for blog and portfolio
+20/02/2018 20:28:pool[peaceful-jumping-villages-vjn5l3]: implement partial for nav component
+20/02/2018 21:05:pool[pretty-baking-cabins-7ruf44]: configure bootstrap, add webpacker, begin add yarn
