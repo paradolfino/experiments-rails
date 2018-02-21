@@ -1,4 +1,1 @@
 
-### pool[serene-shining-cabins-t6us3a]:
-* begin refactoring of application layout
-
