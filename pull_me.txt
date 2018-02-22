@@ -1,6 +1,1 @@
 
-### pool[pretty-baking-cabins-7ruf44]:
-* configure bootstrap
-* add webpacker
-* begin add yarn
-
