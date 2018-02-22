@@ -1,1 +1,4 @@
 
+### pool[rapid-shining-horses-qw2lj6]:
+* implement partials with local data for nav bars
+
