@@ -125,3 +125,5 @@
 20/02/2018 20:20:pool[rapid-running-horses-y53b41]: add custom layout for blog and portfolio
 20/02/2018 20:28:pool[peaceful-jumping-villages-vjn5l3]: implement partial for nav component
 20/02/2018 21:05:pool[pretty-baking-cabins-7ruf44]: configure bootstrap, add webpacker, begin add yarn
+21/02/2018 20:29:pool[rapid-shining-horses-qw2lj6]: implement partials with local data for nav bars
+21/02/2018 20:49:pool[brilliant-jumping-rabbits-42222d]: implement view helper for auth links
