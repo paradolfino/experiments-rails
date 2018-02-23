@@ -10,7 +10,7 @@ module ApplicationHelper
 
     def source_helper
         if session[:source]
-            content_tag(:p, "Tak for visiter mig fran #{session[:source]}")
+            content_tag(:p, "Tak for visiter mig fran #{session[:source]}", class: "source-greeting")
         end
 
     end
