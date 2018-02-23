@@ -9,6 +9,6 @@ module ApplicationHelper
     end
 
     def sample_helper
-
+        content_tag(:div, "My content", class: "my-class")
     end
 end
