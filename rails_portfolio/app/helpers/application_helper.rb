@@ -8,11 +8,10 @@ module ApplicationHelper
         end 
     end
 
-    <% if session[:source] %>
-      Tak for visiter mig fran <%= session[:source] %>
-    <% end %>
-
     def source_helper
+        if session[:source]
+            "Tak for visiter mig fran #{session[:source]}"
+        end
 
     end
 end
