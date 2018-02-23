@@ -8,7 +8,7 @@ module ApplicationHelper
         end 
     end
 
-    def sample_helper
-        content_tag(:div, "My content", class: "my-class")
-    end
+    <% if session[:source] %>
+      Tak for visiter mig fran <%= session[:source] %>
+    <% end %>
 end
