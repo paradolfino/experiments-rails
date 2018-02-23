@@ -11,4 +11,8 @@ module ApplicationHelper
     <% if session[:source] %>
       Tak for visiter mig fran <%= session[:source] %>
     <% end %>
+
+    def source_helper
+
+    end
 end
