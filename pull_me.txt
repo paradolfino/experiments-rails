@@ -1,4 +1,1 @@
 
-### pool[brilliant-running-mountains-cmvg77]:
-* begin use of content helpers
-
