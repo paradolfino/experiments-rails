@@ -1,7 +1,4 @@
 
-### pool[rapid-shining-horses-qw2lj6]:
-* implement partials with local data for nav bars
-
-### pool[brilliant-jumping-rabbits-42222d]:
-* implement view helper for auth links
+### pool[brilliant-running-mountains-cmvg77]:
+* begin use of content helpers
 

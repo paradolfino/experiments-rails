@@ -16,8 +16,6 @@
     <%= yield %>
     <%= render 'shared/nav', location: 'top' %>
 
-    <% if session[:source] %>
-      Tak for visiter mig fran <%= session[:source] %>
-    <% end %>
+    <%= source_helper %>
   </body>
 </html>
