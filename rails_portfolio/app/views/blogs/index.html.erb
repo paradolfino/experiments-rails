@@ -13,7 +13,7 @@
   </thead>
 
   <tbody>
-    <% render @blogs.published %>
+    <%= render @blogs.published %>
     <% @blogs.draft.each do |blog| %>
       <tr>
         <td><%= blog.title %></td>
