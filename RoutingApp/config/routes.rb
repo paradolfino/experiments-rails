@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   get 'posts', to: 'posts#index', as: 'posts'
   get 'posts/:id', to: 'posts#show', as: 'post'
   get 'posts/new', to: 'posts#new', as: 'new_post'
-  get 'posts/*missing', to: 'posts#missing'
+  get 'posts/*missing/', to: 'posts#missing'
   get 'query/:noen/', to: 'pages#noen'
   get 'query/:noen/:nan', to: 'pages#noen'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
