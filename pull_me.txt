@@ -1,4 +1,6 @@
 
-### pool[brilliant-running-mountains-cmvg77]:
-* begin use of content helpers
+[implement collection-based partials]
+### 26/02/2018[20:02 - 20:49]:
+* work on content tag helpers
+* work on rednering collections via partials
 
