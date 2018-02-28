@@ -1,6 +1,5 @@
 
-[implement collection-based partials]
-### 26/02/2018[20:02 - 20:49]:
-* work on content tag helpers
-* work on rednering collections via partials
+[integrate helper methods from ActionView]
+### 27/02/2018[19:55 - 20:32]:
+* working with built in view helper methods
 
