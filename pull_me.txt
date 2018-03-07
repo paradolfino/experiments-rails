@@ -1,5 +1,1 @@
 
-[integrate helper methods from ActionView]
-### 27/02/2018[19:55 - 20:32]:
-* working with built in view helper methods
-
