@@ -10,8 +10,8 @@ end
 
 module VolanderViewTool
   class Renderer
-    def self.copyright
-
+    def self.copyright name, msg
+      
     end
   end
 end
