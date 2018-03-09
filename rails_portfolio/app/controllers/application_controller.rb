@@ -11,7 +11,7 @@ end
 module VolanderViewTool
   class Renderer
     def self.copyright name, msg
-      "&copy; #{}"
+      "&copy; #{Time.now.year}"
     end
   end
 end
