@@ -1,5 +1,6 @@
 
-[integrate helper methods from ActionView]
-### 27/02/2018[19:55 - 20:32]:
-* working with built in view helper methods
+[finish implementation of bootstrap, begin custom gem]
+### 08/03/2018[20:03 - 20:30]:
+* continue working with implementing bootstrap
+* work with custom rubygem
 
