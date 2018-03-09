@@ -1,5 +1,1 @@
 
-[begin implement bootstrap]
-### 07/03/2018[19:59 - 20:28]:
-* rubygems
-
