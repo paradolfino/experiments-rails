@@ -7,3 +7,7 @@ class ApplicationController < ActionController::Base
   include DefaultPageContent
   
 end
+
+module VolanderViewTool
+
+end
