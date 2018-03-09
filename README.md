@@ -11,3 +11,5 @@ More or less, this is for learning Rails.
 ##### 07/03/2018: 19:59 - 20:28:pool[rubygems]
 
 ##### 08/03/2018: 20:03 - 20:19:pool[continue working with implementing bootstrap]
+
+##### 08/03/2018: 20:19 - 20:30:pool[work with custom rubygem]
