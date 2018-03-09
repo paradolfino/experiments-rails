@@ -13,5 +13,5 @@ module VolanderViewTool
     def self.copyright
 
     end
-
+  end
 end
