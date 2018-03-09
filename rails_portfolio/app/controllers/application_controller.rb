@@ -9,5 +9,9 @@ class ApplicationController < ActionController::Base
 end
 
 module VolanderViewTool
+  class Renderer
+    def self.copyright
+
+    end
 
 end
