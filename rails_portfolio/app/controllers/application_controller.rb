@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   before_action :set_copyright
 
   def set_copyright
-
+    @copyright = VolanderViewTool::Renderer.copyright "Viktharien Volander", "All Rights Reserved"
   end
 end
 
