@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["viktharien@zoho.com"]
 
   spec.summary       = %q{TODO: For One and For All.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = %q{TODO: For One and For All.For One and For All.For One and For All.For One and For All.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
