@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{TODO: For One and For All.}
   spec.description   = %q{TODO: For One and For All.For One and For All.For One and For All.For One and For All.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "TODO: foroneandforall.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
