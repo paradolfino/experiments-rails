@@ -1,1 +1,5 @@
 
+[continue work on custom gem]
+### 12/03/2018[20:04 - 20:21]:
+* continue work with custom gem
+
