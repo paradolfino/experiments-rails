@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["viktharien"]
   spec.email         = ["viktharien@zoho.com"]
 
-  spec.summary       = %q{TODO: For One and For All.}
-  spec.description   = %q{TODO: For One and For All.For One and For All.For One and For All.For One and For All.}
-  spec.homepage      = "TODO: foroneandforall.com"
+  spec.summary       = %q{For One and For All.}
+  spec.description   = %q{For One and For All.For One and For All.For One and For All.For One and For All.}
+  spec.homepage      = "foroneandforall.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
