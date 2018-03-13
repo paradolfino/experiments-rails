@@ -1,6 +1,1 @@
 
-[finish implementation of bootstrap, begin custom gem]
-### 08/03/2018[20:03 - 20:30]:
-* continue working with implementing bootstrap
-* work with custom rubygem
-
